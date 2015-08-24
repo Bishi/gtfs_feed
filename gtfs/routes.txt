@@ -1,0 +1,20 @@
+route_id,route_short_name,route_long_name,route_type
+1,6 (Dolgi most P+R),6 (Dolgi most P+R),3
+2,14 (Vrhovci),14 (Vrhovci),3
+3,7L (Letaliska),7L (Letaliska),3
+4,20 (Fuzine),20 (Fuzine),3
+5,6 (Crnuce),6 (Crnuce),3
+6,20 (Nove Stozice),20 (Nove Stozice),3
+7,27 (Letaliska),27 (Letaliska),3
+8,27 (NS Rudnik),27 (NS Rudnik),3
+9,7L (Przan),7L (Przan),3
+10,Brezovica - Ljubljana,Brezovica - Ljubljana,2
+11,Ljubljana - Kranj,Ljubljana - Kranj,2
+12,Ljubljana - Litija,Ljubljana - Litija,2
+13,Litija - Ljubljana,Litija - Ljubljana,2
+14,Kamnik - Ljubljana,Kamnik - Ljubljana,2
+15,Ljubljana - Borovnica,Ljubljana - Borovnica,2
+16,Ljubljana - Kamnik,Ljubljana - Kamnik,2
+17,Ljubljana - Grosuplje,Ljubljana - Grosuplje,2
+18,Kranj - Ljubljana,Kranj - Ljubljana,2
+19,Grosuplje - Ljubljana,Grosuplje - Ljubljana,2

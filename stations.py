@@ -1,0 +1,76 @@
+#!/usr/bin/python
+# -*- coding: iso-8859-2 -*-
+
+from init_objects import clean_stations
+
+# missing some stations
+# stations have to be in order: first stop -> last stop
+bus_stations = {
+    '27 (NS Rudnik)': ['Letali¹ka', 'Rog', 'GZL', 'Leskov¹kova', 'Yulon', 'BTC - Emporium', 'BTC - Kolosej', 'Tr¾nica',
+                       'BTC - Uprava', 'Jar¹e', '©ola Jar¹e', 'Flaj¹manova', 'Sredi¹ka', 'Viadukt', 'Fri¹kovec',
+                       'Kolodvor', 'Bavarski dvor', 'Po¹ta', 'Drama', 'Kri¾anke', 'Gornji trg', 'Privoz', 'Streli¹èe',
+                       'I¾anska', 'Galjevica', 'Mihov ¹tradon', 'Jurèkova', 'Bobrova', 'NS Rudnik'],
+    '20 (Fu¾ine)': ['Nove Sto¾ice P+R', 'Maroltova', 'Puhova', 'Kardeljeva plo¹èad', 'Gasilska brigada', 'Be¾igrad',
+                    'Razstavi¹èe', 'Bavarski dvor', 'Dalmatinova', 'Turist', 'Zmajski most', 'Poljanska',
+                    'Ambro¾ev trg', 'Ro¹ka', 'Klinièni center', 'Bolnica', 'Tr¾nica Moste', 'Zalo¹ka', 'Brodarjev trg',
+                    'Preglov trg', 'Rusjanov trg ', 'Fu¾ine P+R'],
+    '27 (Letali¹ka)': ['NS Rudnik', 'Bobrova', 'Jurèkova', 'Mihov ¹tadron', 'Galjevica', 'I¾anska', 'Steli¹èe',
+                       'Privoz', 'Gornji trg', 'Kri¾anke', 'Drama', 'Po¹ta', 'Bavarski dvor', 'Kolodvor', 'Fri¹kovec',
+                       'Viadukt', 'Sredi¹ka', 'Flaj¹manova', '©ola Jar¹e', 'Jar¹e', 'BTC - Uprava', 'Tr¾nica',
+                       'BTC - Kolosej', 'BTC - Emporium', 'Yulon', 'Leskov¹kova', 'GZL', 'Rog', 'Letali¹ka'],
+    '20 (Nove Sto¾ice)': ['Fu¾ine P+R', 'Rusjanov trg', 'Preglov trg', 'Brodarjev trg', 'Pot na Fu¾ine', 'Zalo¹ka',
+                          'Tr¾nica Moste', 'Bolnica', 'Klinièni center', 'Ambro¾ev trg', 'Poljanska', 'Zmajski most',
+                          'Tavèarjeva', 'Bavarski dvor', 'Razstavi¹èe', 'Be¾igrad', 'Kr¾ièeva', 'Gasilska Brigada',
+                          'Puhova', 'Nove Sto¾ice'],
+    '6 (Èrnuèe)': ['Dolgi most P+R', 'Bonifacija', 'Viè', 'Glince', 'Stan in dom', 'Hajdrihova', 'Tobaèna', 'A¹kerèeva',
+                   'Drama', 'Konzorcij', 'Ajdov¹èina', 'Bavarski dvor', 'Razstavi¹èe', 'Astra', 'Stadion', 'Mercator',
+                   'AMZS', 'Smelt', 'Sto¾ice', 'Ruski car', 'Je¾ica', 'Sava', 'Kolodvor Èrnuèe', 'Rogovilc', 'Èrnuèe'],
+    '6 (Dolgi most P+R)': ['Èrnuèe', 'Rogovilc', 'Kolodvro Èrnuèe', 'Sava', 'Je¾ica', 'Ruski car', 'Sto¾ice', 'Smelt',
+                           'AMZS', 'Mercator', 'Stadion', 'Astra', 'Razstavi¹èe', 'Bavarski dvor', 'Po¹ta', 'Drama',
+                           'A¹kerèeva', 'Tobaèna', 'Hajdrihova', 'Staon in dom', 'Glince', 'Viè', 'Bonifacija',
+                           'Dolgi most P+R'],
+    '7L (Pr¾an)': ['Letali¹ka', 'Rog', 'GZL', 'Lesko¹kova', 'Yulon', 'Bratislavska', 'Nove Jar¹e', '®ito', 'Kodrova',
+                   'Jar¹e', '©ola Jar¹e', 'Pokopali¹ka', '®ale', 'Savske Stolpnice', 'Prekmurska', 'Be¾igrad',
+                   'Razstavi¹èe', 'Bavarski Dvor', 'Hotel Lev', 'Tivoli', 'Stara cerkev', 'Na jami', 'Bolnica P Dr¾aja',
+                   'Zgornja ©i¹ka', 'Tr¾nica Koseze', 'Èebelarska', 'Ple¹ièeva', 'Andreja Bitenca', 'Pr¾an'],
+    '7L (Letali¹ka)': ['Pr¾an', 'Andreja Bitenca', 'Ple¹ièeva', 'Èebelarska', 'Tr¾nica Koseze', 'Zgornja ©i¹ka',
+                       'Bolnica P Dr¾aja', 'Na Jami', 'Stara cerkev', 'Tivoli', 'Bavarski Dvor',
+                       'Razstavi¹èe', 'Be¾igrad', 'Prekmurksa', 'Savske stolpnice', '®ale', 'Pokopali¹ka', '©ola Jar¹e',
+                       'Jar¹e', 'Kodrova', '®ito', 'Nove Jar¹e', 'Bratislavksa', 'Yulon', 'Leskov¹kova', 'GZL', 'Rog',
+                       'Letali¹ka'],
+    '14 (Vrhovci)': ['Savlje', 'Kali¹nikov trg', 'Èerinova', '7. septembra', 'Gorjanèeva', 'Pohorskega bataljona',
+                     'Brinje', 'Vodovodna', 'Podmil¹èakova', 'Bratov ®idan', 'Parmova', 'Hranilni¹ka', 'Razstavi¹èe',
+                     'Bavarski dvor', 'Ajdov¹èina', 'Konzorcij', 'Cankarjev dom', 'Pod Ro¾nikom',
+                     '©tudentsko naselje', 'Ro¾na dolina', 'Cesta XV', 'Jamnikarjeva', 'Vi¹ko polje', 'Podmornica',
+                     'Preval', 'Brdo', 'Vrhovci'],
+    '14 (Savlje)': ['Vrhovci', 'Brdo', 'Preval', 'Podmornica', 'Vi¹ko polje', 'Jamnikarjeva', 'Cesta XV',
+                    'Ro¾na dolina', '©tudentsko naselje', 'Pod Ro¾nikom', 'Cankarjev dom', 'Po¹ta', 'Bavarski Dvor',
+                    'Razstavi¹èe', 'Hranilni¹ka', 'Parmova', 'Bratov ®idan', 'Podmil¹èakova', 'Vodovodna', 'Brinje',
+                    'Pohorskega bataljona', 'Gorjanèeva', '7. septembra', 'Èerinova', 'Kali¹nikov trg', 'Savlje']
+}
+train_stations = {
+    'Ljubljana - Grosuplje': ['Ljubljana', 'Ljubljana - Vodmat', 'Ljubljana - Rakovnik','©kofljica', '©marje-Sap',
+                              'Grosuplje'],
+    'Grosuplje - Ljubljana': ['Grosuplje', '©marje-Sap', '©kofljica', 'Ljubljana - Rakovnik', 'Ljubljana - Vodmat',
+                              'Ljubljana'],
+    'Ljubljana - Borovnica': ['Ljubljana', 'Ljubljana Tivoli', 'Brezovica', 'Notranje Gorice', 'Preserje', 'Borovnica'],
+    'Brezovica - Ljubljana': ['Brezovica', 'Preserje', 'Notranje Gorice', 'Brezovica', 'Ljubljana Tivoli', 'Ljubljana'],
+    'Kranj - Ljubljana': ['Kranj', '©kofja Loka', 'Reteèe', 'Medvode', 'Medno', 'Ljubljana Vi¾marje',
+                          'Ljubljana Stegne', 'Litostroj', 'Ljubljana'],
+    'Ljubljana - Kranj': ['Ljubljana', 'Litostroj', 'Ljubljana Stegne', 'Ljubljana Vi¾marje', 'Medno', 'Medvode',
+                          'Reteèe', '©kofja Loka', 'Kranj'],
+    'Ljubljana - Litija': ['Ljubljana', 'Ljubljana Polje', 'Ljubljana Zalog', 'Laze', 'Jevnica', 'Kresnice', 'Litija'],
+    'Litija - Ljubljana': ['Litija', 'Kresnice', 'Jevnica', 'Laze', 'Ljubljana Zalog', 'Ljubljana Polje', 'Ljubljana'],
+    'Ljubljana - Kamnik': ['Ljubljana', 'Ljubljana Brinje', 'Ljubljana Je¾ica', 'Ljubljana Èrnuèe', 'Trzin ind. cona',
+                           'Trzin Mlake', 'Trzin', 'Dom¾ale', 'Rodica', 'Jar¹e-Menge¹', 'Homec pri Kamniku',
+                           '©marca', 'Duplica-Bakovnik', 'Kamnik'],
+    'Kamnik - Ljubljana': ['Kamnik', 'Duplica-Bakovnik', '©marca', 'Homec pri Kamniku', 'Rodica', 'Dom¾ale', 'Trzin',
+                           'Trzin Mlake', 'Trzin ind. cona', 'Ljubljana Èrnuèe', 'Ljubljana Je¾ica', 'Ljubljana Brinje'
+                           'Ljubljana']
+}
+# bus_stations = {'27 (NS Rudnik)': ['Letali¹ka', 'Rog', 'GZL'],
+#             '20 (Fuzine)': ['Kri¾anke', 'Drama']}
+
+
+bus_stations = clean_stations(bus_stations)
+train_stations = clean_stations(train_stations)

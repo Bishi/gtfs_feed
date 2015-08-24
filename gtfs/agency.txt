@@ -1,0 +1,2 @@
+agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+LPP,http://www.lpp.si,Europe/Ljubljana,en,+38615822460,http://www.lpp.si/en/public-transport/information-bus-arrivals
