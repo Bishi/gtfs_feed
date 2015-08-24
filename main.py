@@ -1,12 +1,12 @@
 #!/usr/bin/python
 # -*- coding: iso-8859-2 -*-
 
-from init_GTFS import init_GTFS
-from init_objects import init_stations, print_routes, init_routes, init_trips, init_calendar, init_stop_times
-from init_objects import route_type_dict
-from stations import bus_stations, train_stations
 import zipfile
 import os
+from init_GTFS import init_GTFS
+from init_objects import init_stations, print_routes, init_routes, init_trips, init_calendar, init_stop_times
+from init_objects import init_fares, route_type_dict
+from stations import bus_stations, train_stations
 
 if __name__ == '__main__':
     # stop_id++ for every station, starting at 1000
@@ -19,11 +19,13 @@ if __name__ == '__main__':
     print_routes(bus_stations, bus_routes)
     print_routes(train_stations, train_routes)
 
-    # init_routes(routes,type)
     route_list = init_routes(bus_routes, train_routes)
 
     trips = init_trips(route_list)
 
+    fare_attributes, fare_rules = init_fares(bus_routes, train_routes)
+
+    # all routes work 7 days per week
     calendar = init_calendar(trips, 1, 1, 1, 1, 1, 1, 1, 20070101, 20170101)
 
     stop_times = init_stop_times(route_list)
@@ -52,6 +54,7 @@ if __name__ == '__main__':
             f.write(line)
         f.close()
 
+    # calendar not implemented correctly
     with open('gtfs/calendar.txt', 'a') as f:
         for c in calendar:
             line = "\n" + str(c.service_id) + "," + str(c.monday) + "," + str(c.tuesday) + ","\
@@ -74,6 +77,20 @@ if __name__ == '__main__':
             f.write(line)
         f.close()
 
+    with open('gtfs/fare_attributes.txt', 'a') as f:
+        for a in fare_attributes:
+            line = "\n" + str(a.fare_id) + "," + str(a.price) + "," + str(a.currency_type) + ","\
+                   + str(a.payment_method) + "," + str(a.transfers) + "," + str(a.transfer_duration)
+            f.write(line)
+        f.close()
+
+    with open('gtfs/fare_rules.txt', 'a') as f:
+        for a in fare_rules:
+            line = "\n" + str(a.fare_id) + "," + str(a.route_id)
+            f.write(line)
+        f.close()
+
+    # zip the file -> gtfs.zip
     zf = zipfile.ZipFile('gtfs/gtfs.zip', 'w', zipfile.ZIP_DEFLATED)
     try:
         zf.write('gtfs/stops.txt', os.path.relpath('gtfs/stops.txt', 'gtfs'))
@@ -84,6 +101,8 @@ if __name__ == '__main__':
         zf.write('gtfs/stop_times.txt', os.path.relpath('gtfs/stop_times.txt', 'gtfs'))
         zf.write('gtfs/frequencies.txt', os.path.relpath('gtfs/frequency.txt', 'gtfs'))
         zf.write('gtfs/shapes.txt', os.path.relpath('gtfs/shapes.txt', 'gtfs'))
+        zf.write('gtfs/fare_attributes.txt', os.path.relpath('gtfs/fare_attributes.txt', 'gtfs'))
+        zf.write('gtfs/fare_rules.txt', os.path.relpath('gtfs/fare_rules.txt', 'gtfs'))
         print("\nCreating zip file")
         zf.close()
     except:

@@ -4,7 +4,7 @@
 from urllib import parse, request
 from time import sleep
 import simplejson
-from objects import Stop, Route, Trip, StopTime, Calendar
+from objects import Stop, Route, Trip, StopTime, Calendar, FareAttribute, FareRule
 
 
 route_type_dict = {'Tram': 0, 'Subway': 1, 'Rail': 2, 'Bus': 3, 'Ferry': 4,
@@ -21,8 +21,8 @@ def get_coordinates(i, address, city='', station="Transit stop", from_sensor=Fal
         'address': query,
         'sensor': "true" if from_sensor else "false",
         # use one of the api keys
-        # 'key': 'AIzaSyCyG3oGgSUQkjq5IrgM9SkE_0rqXlS_an0'
-        'key': 'AIzaSyA6tXxhtw-kSt14NKgyqHtBq1RoVPEiOu4'
+        'key': 'AIzaSyCyG3oGgSUQkjq5IrgM9SkE_0rqXlS_an0'
+        # 'key': 'AIzaSyA6tXxhtw-kSt14NKgyqHtBq1RoVPEiOu4'
         # 'key': 'AIzaSyCWzpKbodAy8D-DfaC_WXLdBIVw8tsTlq8'
         # 'key': 'AIzaSyBIM2IllcbT-SIxK6jBn7FkEdKgjc1W3VM'
     }
@@ -116,6 +116,8 @@ def init_calendar(trips, monday, truestday, wednesday, thursday, friday, saturda
 
 
 # returns list of StopTime objects
+# not implemented correctly, adds duplicate stations
+# 1min30sec travel time between ALL adjacent stations
 def init_stop_times(routes):
     stop_times_list = []
     # arrival_time = '12:00:00'
@@ -136,6 +138,26 @@ def init_stop_times(routes):
             time += interval
         trip += 1
     return stop_times_list
+
+
+# returns list of fare attributes and list of fare rules
+def init_fares(bus_routes, train_routes):
+    fare_payment = {'On board': 0, 'Before boarding': 1}
+    transfer_type = {'None': 0, 'One': 1, 'Two': 2, 'Unlimited': ''}
+    # bus price = 1.2 EUR, train price = 5 EUR
+    fare_attributes_list = [FareAttribute(1, 1.2, 'EUR', fare_payment['On board'], transfer_type['Unlimited'], 5400),
+                            FareAttribute(2, 5, 'EUR', fare_payment['On board'], transfer_type['Unlimited'], 5400)]
+    fare_rule_list = []
+    route_id = 1
+    for r in bus_routes:
+        fare_rule_object = FareRule(1, route_id)
+        fare_rule_list.append(fare_rule_object)
+        route_id += 1
+    for r in train_routes:
+        fare_rule_object = FareRule(2, route_id)
+        fare_rule_list.append(fare_rule_object)
+        route_id += 1
+    return fare_attributes_list, fare_rule_list
 
 
 # replace slovene characters from station and route names

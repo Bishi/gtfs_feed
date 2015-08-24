@@ -64,3 +64,21 @@ class Calendar(object):
 
     def __str__(self):
         return str(self.service_id)
+
+
+class FareAttribute(object):
+
+    def __init__(self, fare_id, price, currency_type, payment_method, transfers, transfer_duration):
+        self.fare_id = fare_id
+        self.price = price
+        self.currency_type = currency_type
+        self.payment_method = payment_method
+        self.transfers = transfers
+        self.transfer_duration = transfer_duration
+
+
+class FareRule(object):
+
+    def __init__(self, fare_id, route_id):
+        self.fare_id = fare_id
+        self.route_id = route_id
