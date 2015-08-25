@@ -72,8 +72,10 @@ if __name__ == '__main__':
 
     with open('gtfs/frequencies.txt', 'a') as f:
         for r in route_list:
-            line = ("\n%s,05:00:00,23:30:00,60" % r.route_id)
-            # line = "asd"
+            if r.route_type == route_type_dict['Bus']:
+                line = ("\n%s,05:00:00,23:30:00,60" % r.route_id) # a bus comes every minute
+            elif r.route_type == route_type_dict['Rail']:
+                line = ("\n%s,05:00:00,23:30:00,600" % r.route_id) # a train comes every 10 minutes
             f.write(line)
         f.close()
 

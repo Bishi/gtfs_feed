@@ -124,9 +124,12 @@ def init_stop_times(routes):
     # departure_time = '12:00:00'
     trip = 1
     for r in routes:
-        interval = 90  # seconds
         time = 21600  # 6am
         sequence = 1
+        if r.route_type == route_type_dict['Bus']:
+            interval = 90 # 1.5min for bus
+        elif r.route_type == route_type_dict['Rail']:
+            interval = 300 # 5min for rail
         for a in r.stops:
             # converts seconds to hours:minutes:seconds
             m, s = divmod(time, 60)
