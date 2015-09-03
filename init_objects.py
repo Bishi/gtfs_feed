@@ -11,10 +11,18 @@ route_type_dict = {'Tram': 0, 'Subway': 1, 'Rail': 2, 'Bus': 3, 'Ferry': 4,
                    'Cable car': 5, 'Gondola': 6, 'Funicular': 7}
 
 
-# Get coordinates from address (in our case station name), returns Station object with id, name, lat, lon
-# If you call get_coordinates(id, 'address'), it will send a request with 'Transit stop address' as address
-# Only used for Rail stations
 def get_coordinates(i, address, city='', station="Transit stop", from_sensor=False):
+    """
+    Get coordinates from address (in our case station name)
+    If you call get_coordinates(id, 'address'), it will send a request with 'Transit stop address' as address
+    Only used for Rail stations
+    :param i:
+    :param address:
+    :param city:
+    :param station:
+    :param from_sensor:
+    :return: Station object with id, name, lat, lon
+    """
     google_geocode_url = 'https://maps.googleapis.com/maps/api/geocode/json?'
     query = station + " " + address + " " + city
     query = query.encode('UTF-8')
@@ -44,11 +52,16 @@ def get_coordinates(i, address, city='', station="Transit stop", from_sensor=Fal
     return station_object if station_object else None
 
 
-# Get coordinates from json file. 'name' is the station number from bus_stations dict.
-# eg. "402042" - > "402042 ~ Bolnica 46.0544176 14.5293393"
-# Returns Station object with id, name, lat, lon
-# Only used for Bus stations
 def get_coordinates_json(i, name, file):
+    """
+    Get coordinates from json file. 'name' is the station number from bus_stations dict.
+    eg. "402042" - > "402042 ~ Bolnica 46.0544176 14.5293393"
+    Only used for Bus stations
+    :param i:
+    :param name:
+    :param file:
+    :return: Station object with id, name, lat, lon
+    """
     data = read_data(file)
     station_object = None
     for d in data['features']:
@@ -67,11 +80,15 @@ def get_coordinates_json(i, name, file):
     return station_object if station_object else None
 
 
-# returns dict with Station object list
-# takes either bus_stations or train_stations as parameters
-# routes = {route_name:[station_object_list]}
-# use sleep(0.3) if the servers are busy
 def init_stations(stations, stop_id, route_type):
+    """
+    Use sleep(0.3) if the servers are busy
+    routes = {route_name:[station_object_list]}
+    :param stations: takes either bus_stations or train_stations as parameters
+    :param stop_id:
+    :param route_type:
+    :return: dict with Station object list
+    """
     routes = {}
     for r in stations:
         route_list = []
@@ -94,8 +111,12 @@ def init_stations(stations, stop_id, route_type):
     return routes, stop_id
 
 
-# returns routes dict with Routes object list
 def init_routes(bus_routes, train_routes):
+    """
+    :param bus_routes:
+    :param train_routes:
+    :return: routes dict with Routes object list
+    """
     route_list = []
     i = 1
     for r in bus_routes:
@@ -109,8 +130,13 @@ def init_routes(bus_routes, train_routes):
     return route_list
 
 
-# prints all the bus or train stations in order
 def print_routes(stations, routes):
+    """
+    Prints all the bus or train stations in order
+    :param stations:
+    :param routes:
+    :return:
+    """
     print()
     for s in stations:
         print("\n  Route %s, %s stops." % (s, str(len(routes[s]))))
@@ -118,8 +144,11 @@ def print_routes(stations, routes):
             print(r.name, r.lat, r.lon)
 
 
-# returns list of Trip objects
 def init_trips(routes):
+    """
+    :param routes:
+    :return: list of Trip objects
+    """
     trip_list = []
     i = 1
     for r in routes:
@@ -129,8 +158,10 @@ def init_trips(routes):
     return trip_list
 
 
-# returns list of Calendar objects
 def init_calendar(trips, monday, truestday, wednesday, thursday, friday, saturday, sunday, start_date, end_date):
+    """
+    :return: list of Calendar objects
+    """
     calendar_list = []
     for t in trips:
         service_object = Calendar(t.trip_id, monday, truestday, wednesday,
@@ -139,13 +170,14 @@ def init_calendar(trips, monday, truestday, wednesday, thursday, friday, saturda
     return calendar_list
 
 
-# returns list of StopTime objects
-# not implemented correctly, adds duplicate stations
-# 1min30sec travel time between ALL adjacent stations
 def init_stop_times(routes):
+    """
+    Not implemented correctly, adds duplicate stations
+    1min30sec travel time between bus and 5min between rail stations
+    :param routes:
+    :return: list of StopTime objects
+    """
     stop_times_list = []
-    # arrival_time = '12:00:00'
-    # departure_time = '12:00:00'
     trip = 1
     for r in routes:
         interval = 0  # init interval
@@ -168,8 +200,12 @@ def init_stop_times(routes):
     return stop_times_list
 
 
-# returns list of fare attributes and list of fare rules
 def init_fares(bus_routes, train_routes):
+    """
+    :param bus_routes:
+    :param train_routes:
+    :return: list of fare attributes and list of rfare rules
+    """
     fare_payment = {'On board': 0, 'Before boarding': 1}
     transfer_type = {'None': 0, 'One': 1, 'Two': 2, 'Unlimited': ''}
     # bus price = 1.2 EUR, train price = 5 EUR
@@ -188,8 +224,12 @@ def init_fares(bus_routes, train_routes):
     return fare_attributes_list, fare_rule_list
 
 
-# replace slovene characters from station and route names
 def clean_stations(stations):
+    """
+    Replace slovene characters from station and route names
+    :param stations:
+    :return: clean stations
+    """
     tmpr = {}
     for r in stations:
         tmps = []
@@ -205,6 +245,11 @@ def clean_stations(stations):
 
 
 def read_data(file):
+    """
+    Reads json data from file
+    :param file:
+    :return: data
+    """
     with open(file) as f:
         data = json.load(f)
         return data
