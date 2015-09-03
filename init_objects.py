@@ -2,8 +2,8 @@
 # -*- coding: iso-8859-2 -*-
 
 from urllib import parse, request
-from time import sleep
 import simplejson
+import json
 from objects import Stop, Route, Trip, StopTime, Calendar, FareAttribute, FareRule
 
 
@@ -13,6 +13,7 @@ route_type_dict = {'Tram': 0, 'Subway': 1, 'Rail': 2, 'Bus': 3, 'Ferry': 4,
 
 # Get coordinates from address (in our case station name), returns Station object with id, name, lat, lon
 # If you call get_coordinates(id, 'address'), it will send a request with 'Transit stop address' as address
+# Only used for Rail stations
 def get_coordinates(i, address, city='', station="Transit stop", from_sensor=False):
     google_geocode_url = 'https://maps.googleapis.com/maps/api/geocode/json?'
     query = station + " " + address + " " + city
@@ -43,6 +44,29 @@ def get_coordinates(i, address, city='', station="Transit stop", from_sensor=Fal
     return station_object if station_object else None
 
 
+# Get coordinates from json file. 'name' is the station number from bus_stations dict.
+# eg. "402042" - > "402042 ~ Bolnica 46.0544176 14.5293393"
+# Returns Station object with id, name, lat, lon
+# Only used for Bus stations
+def get_coordinates_json(i, name, file):
+    data = read_data(file)
+    station_object = None
+    for d in data['features']:
+        try:
+            station_number = d['properties']['name'].partition(' ')[0]
+            station_name = d['properties']['name']
+            if "ref" in d['properties']:
+                station_number = d['properties']['ref']
+            if station_number == name:
+                print("Station num %s name %s" % (station_number, d['properties']['name']))
+                station_object = Stop(i, station_name,
+                                      d['geometry']['coordinates'][1],
+                                      d['geometry']['coordinates'][0])
+        except:
+            pass
+    return station_object if station_object else None
+
+
 # returns dict with Station object list
 # takes either bus_stations or train_stations as parameters
 # routes = {route_name:[station_object_list]}
@@ -56,15 +80,15 @@ def init_stations(stations, stop_id, route_type):
             station_object = None
             try:
                 if route_type == route_type_dict['Bus']:
-                    station_object = get_coordinates(stop_id, address, 'Ljubljana', 'Transit stop', False)
+                    # station_object = get_coordinates(stop_id, address, 'Ljubljana', 'Transit stop', False)
+                    station_object = get_coordinates_json(stop_id, address, 'ljubljana.geojson')
                 elif route_type == route_type_dict['Rail']:
                     station_object = get_coordinates(stop_id, address, '', 'Train stop', False)
                 stop_id += 1
                 if station_object:
                     route_list.append(station_object)
-            except:
+            except ValueError:
                 print("No value")
-            # sleep(0.3)
         routes[r] = route_list
         print()
     return routes, stop_id
@@ -124,12 +148,13 @@ def init_stop_times(routes):
     # departure_time = '12:00:00'
     trip = 1
     for r in routes:
+        interval = 0  # init interval
         time = 21600  # 6am
         sequence = 1
         if r.route_type == route_type_dict['Bus']:
-            interval = 90 # 1.5min for bus
+            interval = 90  # 1.5min for bus
         elif r.route_type == route_type_dict['Rail']:
-            interval = 300 # 5min for rail
+            interval = 300  # 5min for rail
         for a in r.stops:
             # converts seconds to hours:minutes:seconds
             m, s = divmod(time, 60)
@@ -177,3 +202,9 @@ def clean_stations(stations):
             tmps.append(s)
         tmpr[r_tmp] = tmps
     return tmpr
+
+
+def read_data(file):
+    with open(file) as f:
+        data = json.load(f)
+        return data

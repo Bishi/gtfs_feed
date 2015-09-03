@@ -1,5 +1,5 @@
 # creates GTFS files with first (attributes) line
-def init_GTFS():
+def init_gtfs():
     f = open('gtfs/trips.txt', 'w+')
     f.write('route_id,service_id,trip_id,trip_headsign,shape_id')
     f.close()
@@ -28,4 +28,7 @@ def init_GTFS():
     f.close()
     f = open('gtfs/fare_rules.txt', 'w+')
     f.write('fare_id,route_id')
+    f.close()
+    f = open('gtfs/shapes.txt', 'w+')
+    f.write('shape_id,shape_pt_sequence,shape_dist_traveled,shape_pt_lon,shape_pt_lat')
     f.close()

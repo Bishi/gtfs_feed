@@ -3,7 +3,8 @@
 
 import zipfile
 import os
-from init_GTFS import init_GTFS
+import sys
+from init_GTFS import init_gtfs
 from init_objects import init_stations, print_routes, init_routes, init_trips, init_calendar, init_stop_times
 from init_objects import init_fares, route_type_dict
 from stations import bus_stations, train_stations
@@ -12,9 +13,10 @@ if __name__ == '__main__':
     # stop_id++ for every station, starting at 1000
     stop_id = 1000
     bus_routes, stop_id = init_stations(bus_stations, stop_id, route_type_dict['Bus'])
+    # stop_id = 3000
     train_routes, stop_id = init_stations(train_stations, stop_id, route_type_dict['Rail'])
 
-    init_GTFS()
+    init_gtfs()
 
     print_routes(bus_stations, bus_routes)
     print_routes(train_stations, train_routes)
@@ -72,10 +74,11 @@ if __name__ == '__main__':
 
     with open('gtfs/frequencies.txt', 'a') as f:
         for r in route_list:
+            line = ""
             if r.route_type == route_type_dict['Bus']:
-                line = ("\n%s,05:00:00,23:30:00,60" % r.route_id) # a bus comes every minute
+                line = ("\n%s,05:00:00,23:30:00,60" % r.route_id)  # a bus comes every minute
             elif r.route_type == route_type_dict['Rail']:
-                line = ("\n%s,05:00:00,23:30:00,600" % r.route_id) # a train comes every 10 minutes
+                line = ("\n%s,05:00:00,23:30:00,600" % r.route_id)  # a train comes every 10 minutes
             f.write(line)
         f.close()
 
@@ -108,4 +111,6 @@ if __name__ == '__main__':
         print("\nCreating zip file")
         zf.close()
     except:
+        print("Unexpected error:", sys.exc_info()[0])
         zf.close()
+        raise
