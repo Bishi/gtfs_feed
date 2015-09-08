@@ -16,10 +16,10 @@ def get_coordinates(i, address, city='', station="Transit stop", from_sensor=Fal
     Get coordinates from address (in our case station name)
     If you call get_coordinates(id, 'address'), it will send a request with 'Transit stop address' as address
     Only used for Rail stations
-    :param i:
-    :param address:
-    :param city:
-    :param station:
+    :param i: stop_id
+    :param address: used for google API query eg. 'Ljubljana Èrnuèe'
+    :param city: add a specific city ot the query
+    :param station: add a station type to the query
     :param from_sensor:
     :return: Station object with id, name, lat, lon
     """
@@ -57,9 +57,9 @@ def get_coordinates_json(i, name, file):
     Get coordinates from json file. 'name' is the station number from bus_stations dict.
     eg. "402042" - > "402042 ~ Bolnica 46.0544176 14.5293393"
     Only used for Bus stations
-    :param i:
-    :param name:
-    :param file:
+    :param i: stop_id
+    :param name: station ID eg. '204031'
+    :param file: get data from which file eg. ljubljana.geojson
     :return: Station object with id, name, lat, lon
     """
     data = read_data(file)
@@ -72,6 +72,7 @@ def get_coordinates_json(i, name, file):
                 station_number = d['properties']['ref']
             if station_number == name:
                 print("Station num %s name %s" % (station_number, d['properties']['name']))
+                station_name = station_name.replace(',',';')
                 station_object = Stop(i, station_name,
                                       d['geometry']['coordinates'][1],
                                       d['geometry']['coordinates'][0])
@@ -85,8 +86,8 @@ def init_stations(stations, stop_id, route_type):
     Use sleep(0.3) if the servers are busy
     routes = {route_name:[station_object_list]}
     :param stations: takes either bus_stations or train_stations as parameters
-    :param stop_id:
-    :param route_type:
+    :param stop_id: all stations must have a different ID
+    :param route_type: either Bus or Rail
     :return: dict with Station object list
     """
     routes = {}
@@ -113,8 +114,8 @@ def init_stations(stations, stop_id, route_type):
 
 def init_routes(bus_routes, train_routes):
     """
-    :param bus_routes:
-    :param train_routes:
+    :param bus_routes: dict of all bus routes
+    :param train_routes: dict of all train routes
     :return: routes dict with Routes object list
     """
     route_list = []
@@ -133,8 +134,8 @@ def init_routes(bus_routes, train_routes):
 def print_routes(stations, routes):
     """
     Prints all the bus or train stations in order
-    :param stations:
-    :param routes:
+    :param stations: dict of all stations
+    :param routes: dict of all routes
     :return:
     """
     print()
@@ -174,7 +175,7 @@ def init_stop_times(routes):
     """
     Not implemented correctly, adds duplicate stations
     1min30sec travel time between bus and 5min between rail stations
-    :param routes:
+    :param routes: list of all routes
     :return: list of StopTime objects
     """
     stop_times_list = []
@@ -202,8 +203,8 @@ def init_stop_times(routes):
 
 def init_fares(bus_routes, train_routes):
     """
-    :param bus_routes:
-    :param train_routes:
+    :param bus_routes: dict of all bus routes
+    :param train_routes: dict of all train routes
     :return: list of fare attributes and list of rfare rules
     """
     fare_payment = {'On board': 0, 'Before boarding': 1}
@@ -227,8 +228,8 @@ def init_fares(bus_routes, train_routes):
 def clean_stations(stations):
     """
     Replace slovene characters from station and route names
-    :param stations:
-    :return: clean stations
+    :param stations: dict that needs to be cleaned
+    :return: dict containing no slovene characters
     """
     tmpr = {}
     for r in stations:
@@ -247,8 +248,8 @@ def clean_stations(stations):
 def read_data(file):
     """
     Reads json data from file
-    :param file:
-    :return: data
+    :param file: json file
+    :return: data from json file
     """
     with open(file) as f:
         data = json.load(f)

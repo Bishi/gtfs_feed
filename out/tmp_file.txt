@@ -1,0 +1,1238 @@
+    <!DOCTYPE html>
+    <html lang="sl">
+        <head>
+            <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+            <title>Iskanje postajališènega voznega reda</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+            <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700,regular&amp;subset=latin-ext" media="all" />
+            		<link href="tmp/9a0c08102b9f5c3fed1fef5ad9f4e0e1.css" rel="stylesheet">
+        </head>
+
+        <body  class='layoutBasic'>
+            <form method="get" action="">
+    <fieldset>
+        <div class="col-sm-6">
+            <label for="stop">Izberite postajališèe ...</label>
+            <select id="stop" name="stop" onchange="$('#line').val(0);submit()">
+                <option value="0">-</option>
+                                        <option  value="103111">7. septembra (103111)</option>
+                                                <option  value="103112">7. septembra (103112)</option>
+                                                <option  value="505132">Adamièev spomenik (505132)</option>
+                                                <option  value="600021">Ajdovšèina (600021)</option>
+                                                <option  value="600022">Ajdovšèina (600022)</option>
+                                                <option  value="503031">Akademija (503031)</option>
+                                                <option  value="503032">Akademija (503032)</option>
+                                                <option  value="502013">Ambrožev trg (502013)</option>
+                                                <option  value="502014">Ambrožev trg (502014)</option>
+                                                <option  value="103031">AMZS (103031)</option>
+                                                <option  value="103032">AMZS (103032)</option>
+                                                <option  value="804171">Andreja Bitenca (804171)</option>
+                                                <option  value="804172">Andreja Bitenca (804172)</option>
+                                                <option  value="303061">Archinetova (303061)</option>
+                                                <option  value="303062">Archinetova (303062)</option>
+                                                <option  value="101051">Astra (101051)</option>
+                                                <option  value="101052">Astra (101052)</option>
+                                                <option  value="602051">Aškerèeva (602051)</option>
+                                                <option  value="602052">Aškerèeva (602052)</option>
+                                                <option  value="803021">Avtomontaža (803021)</option>
+                                                <option  value="803022">Avtomontaža (803022)</option>
+                                                <option  value="103211">Baragova (103211)</option>
+                                                <option  value="103212">Baragova (103212)</option>
+                                                <option  value="604022">Barje (604022)</option>
+                                                <option  value="604023">Barje (604023)</option>
+                                                <option  value="600011">Bavarski dvor (Korabar) (600011)</option>
+                                                <option  value="600012">Bavarski dvor (Kozolec) (600012)</option>
+                                                <option  value="725091">Belica (725091)</option>
+                                                <option  value="725092">Belica (725092)</option>
+                                                <option  value="204141">Belinka (204141)</option>
+                                                <option  value="204142">Belinka (204142)</option>
+                                                <option  value="204171">BERIÈEVO (204171)</option>
+                                                <option  value="405051">Besnica ambulanta (405051)</option>
+                                                <option  value="405052">Besnica ambulanta (405052)</option>
+                                                <option  value="405061">Besnica kamnolom (405061)</option>
+                                                <option  value="405062">Besnica kamnolom (405062)</option>
+                                                <option  value="405021">Besnica/Lj. (405021)</option>
+                                                <option  value="405022">Besnica/Lj. (405022)</option>
+                                                <option  value="405031">Besnica/Lj.Š. (405031)</option>
+                                                <option  value="405032">Besnica/Lj.Š. (405032)</option>
+                                                <option  value="101031">Bežigrad (101031)</option>
+                                                <option  value="101032">Bežigrad (101032)</option>
+                                                <option  value="403071">Bileèanska (403071)</option>
+                                                <option  value="403072">Bileèanska (403072)</option>
+                                                <option  value="404121">BIZOVIK (404121)</option>
+                                                <option  value="404122">Bizovik (404122)</option>
+                                                <option  value="405041">Blaževo (405041)</option>
+                                                <option  value="405042">Blaževo (405042)</option>
+                                                <option  value="504121">Bobrova (504121)</option>
+                                                <option  value="504122">Bobrova (504122)</option>
+                                                <option  value="704041">BOKALCE (704041)</option>
+                                                <option  value="402041">Bolnica (402041)</option>
+                                                <option  value="402042">Bolnica (402042)</option>
+                                                <option  value="802041">Bolnica P. Držaja (802041)</option>
+                                                <option  value="802042">Bolnica P. Držaja (802042)</option>
+                                                <option  value="703101">Bonifacija (703101)</option>
+                                                <option  value="703102">Bonifacija (703102)</option>
+                                                <option  value="103191">Božièeva (103191)</option>
+                                                <option  value="103192">Božièeva (103192)</option>
+                                                <option  value="203181">Bratislavska (203181)</option>
+                                                <option  value="203182">Bratislavska (203182)</option>
+                                                <option  value="803161">Bratov Babnik (803161)</option>
+                                                <option  value="803162">Bratov Babnik (803162)</option>
+                                                <option  value="803131">Bratov Uèakar (803131)</option>
+                                                <option  value="803132">Bratov Uèakar (803132)</option>
+                                                <option  value="101061">Bratov Židan (101061)</option>
+                                                <option  value="101062">Bratov Židan (101062)</option>
+                                                <option  value="704021">Brdo (704021)</option>
+                                                <option  value="704022">Brdo (704022)</option>
+                                                <option  value="704024">Brdo (704024)</option>
+                                                <option  value="715111">Brezje pri Dobrovi (715111)</option>
+                                                <option  value="715112">Brezje pri Dobrovi (715112)</option>
+                                                <option  value="715101">Brezje pri Dobrovi And. (715101)</option>
+                                                <option  value="715102">Brezje pri Dobrovi And. (715102)</option>
+                                                <option  value="614021">Brglezov štradon (614021)</option>
+                                                <option  value="614022">Brglezov štradon (614022)</option>
+                                                <option  value="103021">Brinje (103021)</option>
+                                                <option  value="103022">Brinje (103022)</option>
+                                                <option  value="726021">Briše pri Polh.G. (726021)</option>
+                                                <option  value="726022">Briše pri Polh.G. (726022)</option>
+                                                <option  value="726031">Briše pri Polh.G.Koroš. (726031)</option>
+                                                <option  value="726032">Briše pri Polh.G.Koroš. (726032)</option>
+                                                <option  value="726041">Briše pri Polh.G.M.Voda (726041)</option>
+                                                <option  value="726042">Briše pri Polh.G.M.Voda (726042)</option>
+                                                <option  value="204121">BRNÈIÈEVA (204121)</option>
+                                                <option  value="804121">BROD (804121)</option>
+                                                <option  value="804122">Brod (804122)</option>
+                                                <option  value="303071">Brodarjev trg (303071)</option>
+                                                <option  value="303072">Brodarjev trg (303072)</option>
+                                                <option  value="505091">Brvace (505091)</option>
+                                                <option  value="505092">Brvace (505092)</option>
+                                                <option  value="203251">BTC-ATLANTIS (203251)</option>
+                                                <option  value="203141">BTC-Emporium (203141)</option>
+                                                <option  value="203142">BTC-Emporium (203142)</option>
+                                                <option  value="203131">BTC-Kolosej (203131)</option>
+                                                <option  value="203132">BTC-Kolosej (203132)</option>
+                                                <option  value="203241">BTC-Merkur (203241)</option>
+                                                <option  value="203242">BTC-Merkur (203242)</option>
+                                                <option  value="203121">BTC-tržnica (203121)</option>
+                                                <option  value="203122">BTC-tržnica (203122)</option>
+                                                <option  value="203111">BTC-uprava (203111)</option>
+                                                <option  value="203112">BTC-uprava (203112)</option>
+                                                <option  value="826031">Bukovica Anzel (826031)</option>
+                                                <option  value="826032">Bukovica Anzel (826032)</option>
+                                                <option  value="826021">Bukovica Plevevc (826021)</option>
+                                                <option  value="826022">Bukovica Plevevc (826022)</option>
+                                                <option  value="726071">Butajnova (726071)</option>
+                                                <option  value="726072">Butajnova (726072)</option>
+                                                <option  value="726061">Butajnova Èamernik (726061)</option>
+                                                <option  value="726062">Butajnova Èamernik (726062)</option>
+                                                <option  value="726051">Butajnova Setnik (726051)</option>
+                                                <option  value="726052">Butajnova Setnik (726052)</option>
+                                                <option  value="103173">C. STOŽICE P+R (103173)</option>
+                                                <option  value="602011">Cankarjev dom (602011)</option>
+                                                <option  value="602012">Cankarjev dom (602012)</option>
+                                                <option  value="614041">Capuder (614041)</option>
+                                                <option  value="614042">Capuder (614042)</option>
+                                                <option  value="104091">Cesta na Brod (104091)</option>
+                                                <option  value="104092">Cesta na Brod (104092)</option>
+                                                <option  value="304091">Cesta na Vevèe (304091)</option>
+                                                <option  value="304092">Cesta na Vevèe (304092)</option>
+                                                <option  value="404021">Cesta v Bizovik (404021)</option>
+                                                <option  value="404022">Cesta v Bizovik (404022)</option>
+                                                <option  value="704151">Cesta v Gorice (704151)</option>
+                                                <option  value="704152">Cesta v Gorice (704152)</option>
+                                                <option  value="404071">Cesta v Zavoglje (404071)</option>
+                                                <option  value="404072">Cesta v Zavoglje (404072)</option>
+                                                <option  value="703021">Cesta XV (703021)</option>
+                                                <option  value="703022">Cesta XV (703022)</option>
+                                                <option  value="304041">Chengdujska (304041)</option>
+                                                <option  value="304042">Chengdujska (304042)</option>
+                                                <option  value="505081">Cikava (505081)</option>
+                                                <option  value="505082">Cikava (505082)</option>
+                                                <option  value="803111">Èebelarska (803111)</option>
+                                                <option  value="803112">Èebelarska (803112)</option>
+                                                <option  value="103121">Èerinova (103121)</option>
+                                                <option  value="103122">Èerinova (103122)</option>
+                                                <option  value="737041">ÈRNI VRH (737041)</option>
+                                                <option  value="737031">Èrni Vrh nad Vrhovci (737031)</option>
+                                                <option  value="737032">Èrni Vrh nad Vrhovci (737032)</option>
+                                                <option  value="104161">ÈRNUÈE (104161)</option>
+                                                <option  value="704011">D. MOST P+R (704011)</option>
+                                                <option  value="725111">D.vas pri Polh.G. (725111)</option>
+                                                <option  value="725112">D.vas pri Polh.G. (725112)</option>
+                                                <option  value="600032">Dalmatinova (600032)</option>
+                                                <option  value="725011">Dobrova (725011)</option>
+                                                <option  value="725012">Dobrova (725012)</option>
+                                                <option  value="725013">Dobrova (725013)</option>
+                                                <option  value="725014">Dobrova (725014)</option>
+                                                <option  value="715061">Dobrova graben (715061)</option>
+                                                <option  value="715062">Dobrova graben (715062)</option>
+                                                <option  value="715081">Dobrova Maèek (715081)</option>
+                                                <option  value="715082">Dobrova Maèek (715082)</option>
+                                                <option  value="715091">Dobrova Skodlar (715091)</option>
+                                                <option  value="715092">Dobrova Skodlar (715092)</option>
+                                                <option  value="715071">Dobrova vodomet (715071)</option>
+                                                <option  value="715072">Dobrova vodomet (715072)</option>
+                                                <option  value="404031">Dobrunje (404031)</option>
+                                                <option  value="404032">Dobrunje (404032)</option>
+                                                <option  value="404141">Dobrunje pod Urhom (404141)</option>
+                                                <option  value="404142">Dobrunje pod Urhom (404142)</option>
+                                                <option  value="825071">Dobruša lipa (825071)</option>
+                                                <option  value="825072">Dobruša lipa (825072)</option>
+                                                <option  value="703111">Dolgi most (703111)</option>
+                                                <option  value="703112">Dolgi most (703112)</option>
+                                                <option  value="704051">Dolgi most Rotar (704051)</option>
+                                                <option  value="704052">Dolgi most Rotar (704052)</option>
+                                                <option  value="505192">Dom obrtnikov (505192)</option>
+                                                <option  value="505182">Dom starejših (505182)</option>
+                                                <option  value="614031">Dornig (614031)</option>
+                                                <option  value="614032">Dornig (614032)</option>
+                                                <option  value="803221">Draga (803221)</option>
+                                                <option  value="803222">Draga (803222)</option>
+                                                <option  value="602021">Drama (602021)</option>
+                                                <option  value="602022">Drama (602022)</option>
+                                                <option  value="803151">Draveljska gmajna (803151)</option>
+                                                <option  value="803152">Draveljska gmajna (803152)</option>
+                                                <option  value="803041">Dravlje (803041)</option>
+                                                <option  value="803042">Dravlje (803042)</option>
+                                                <option  value="715011">Draževnik (715011)</option>
+                                                <option  value="715012">Draževnik (715012)</option>
+                                                <option  value="802051">Drenikova (802051)</option>
+                                                <option  value="802052">Drenikova (802052)</option>
+                                                <option  value="804351">Dvor (804351)</option>
+                                                <option  value="804352">Dvor (804352)</option>
+                                                <option  value="725101">Dvor pri Polh.G. (725101)</option>
+                                                <option  value="725102">Dvor pri Polh.G. (725102)</option>
+                                                <option  value="104061">Elma (104061)</option>
+                                                <option  value="104062">Elma (104062)</option>
+                                                <option  value="403051">Emona (403051)</option>
+                                                <option  value="403052">Emona (403052)</option>
+                                                <option  value="745021">Erbežnik (745021)</option>
+                                                <option  value="745022">Erbežnik (745022)</option>
+                                                <option  value="202082">Flajšmanova (202082)</option>
+                                                <option  value="301011">Friškovec (301011)</option>
+                                                <option  value="301012">Friškovec (301012)</option>
+                                                <option  value="304051">FUŽINE P+R (304051)</option>
+                                                <option  value="725041">Gaberje pri Dob.Brvièar (725041)</option>
+                                                <option  value="725042">Gaberje pri Dob.Brvièar (725042)</option>
+                                                <option  value="725031">Gaberje pri Dobrovi (725031)</option>
+                                                <option  value="725032">Gaberje pri Dobrovi (725032)</option>
+                                                <option  value="603093">Galjevica (603093)</option>
+                                                <option  value="603094">Galjevica (603094)</option>
+                                                <option  value="104221">GAMELJNE (104221)</option>
+                                                <option  value="102031">Gasilska brigada (102031)</option>
+                                                <option  value="102032">Gasilska brigada (102032)</option>
+                                                <option  value="104361">GD Gameljne (104361)</option>
+                                                <option  value="104362">GD Gameljne (104362)</option>
+                                                <option  value="603021">Gerbièeva (603021)</option>
+                                                <option  value="603022">Gerbièeva (603022)</option>
+                                                <option  value="703081">Glince (703081)</option>
+                                                <option  value="703082">Glince (703082)</option>
+                                                <option  value="402051">Glonarjeva (402051)</option>
+                                                <option  value="402052">Glonarjeva (402052)</option>
+                                                <option  value="714021">Gmajna (714021)</option>
+                                                <option  value="714022">Gmajna (714022)</option>
+                                                <option  value="603151">Goluhova (603151)</option>
+                                                <option  value="603152">Goluhova (603152)</option>
+                                                <option  value="103091">Gorjanèeva (103091)</option>
+                                                <option  value="103092">Gorjanèeva (103092)</option>
+                                                <option  value="402061">Gornje Poljane (402061)</option>
+                                                <option  value="402062">Gornje Poljane (402062)</option>
+                                                <option  value="504011">Gornji Rudnik (504011)</option>
+                                                <option  value="504012">Gornji Rudnik (504012)</option>
+                                                <option  value="602101">Gornji trg (602101)</option>
+                                                <option  value="602102">Gornji trg (602102)</option>
+                                                <option  value="700011">Gosposvetska (700011)</option>
+                                                <option  value="700012">Gosposvetska (700012)</option>
+                                                <option  value="815101">Gostilna Kovaè (815101)</option>
+                                                <option  value="815102">Gostilna Kovaè (815102)</option>
+                                                <option  value="505141">GROSUPLJE (505141)</option>
+                                                <option  value="505143">GROSUPLJE (505143)</option>
+                                                <option  value="204021">GZL (204021)</option>
+                                                <option  value="204022">GZL (204022)</option>
+                                                <option  value="602031">Hajdrihova (602031)</option>
+                                                <option  value="602032">Hajdrihova (602032)</option>
+                                                <option  value="604041">Havptmance (604041)</option>
+                                                <option  value="604042">Havptmance (604042)</option>
+                                                <option  value="603131">Hladnikova (603131)</option>
+                                                <option  value="603132">Hladnikova (603132)</option>
+                                                <option  value="716011">HORJUL (716011)</option>
+                                                <option  value="716012">Horjul (716012)</option>
+                                                <option  value="101011">Hranilniška (101011)</option>
+                                                <option  value="101012">Hranilniška (101012)</option>
+                                                <option  value="725071">Hrastenice (725071)</option>
+                                                <option  value="725072">Hrastenice (725072)</option>
+                                                <option  value="204061">Hrastje (204061)</option>
+                                                <option  value="204062">Hrastje (204062)</option>
+                                                <option  value="816011">Hraše center (816011)</option>
+                                                <option  value="816012">Hraše center (816012)</option>
+                                                <option  value="816021">Hraše vzhod (816021)</option>
+                                                <option  value="816022">Hraše vzhod (816022)</option>
+                                                <option  value="815131">Hraše zahod (815131)</option>
+                                                <option  value="815132">Hraše zahod (815132)</option>
+                                                <option  value="725051">Hruševo (725051)</option>
+                                                <option  value="725052">Hruševo (725052)</option>
+                                                <option  value="404111">Hruševska (404111)</option>
+                                                <option  value="404112">Hruševska (404112)</option>
+                                                <option  value="404011">Hrušica (404011)</option>
+                                                <option  value="404012">Hrušica (404012)</option>
+                                                <option  value="402011">Hrvatski trg (402011)</option>
+                                                <option  value="402012">Hrvatski trg (402012)</option>
+                                                <option  value="103231">I.C.Šiška (103231)</option>
+                                                <option  value="103232">I.C.Šiška (103232)</option>
+                                                <option  value="625021">Ig (625021)</option>
+                                                <option  value="625022">Ig (625022)</option>
+                                                <option  value="605011">Ig AP (605011)</option>
+                                                <option  value="605012">Ig AP (605012)</option>
+                                                <option  value="605081">Ig Petrol (605081)</option>
+                                                <option  value="605082">Ig Petrol (605082)</option>
+                                                <option  value="501011">Ilirska (501011)</option>
+                                                <option  value="501012">Ilirska (501012)</option>
+                                                <option  value="603101">Ilovica (603101)</option>
+                                                <option  value="603102">Ilovica (603102)</option>
+                                                <option  value="804161">IMP (804161)</option>
+                                                <option  value="804162">IMP (804162)</option>
+                                                <option  value="625051">Iška vas (625051)</option>
+                                                <option  value="625052">Iška vas (625052)</option>
+                                                <option  value="626011">IŠKA VAS obr. (626011)</option>
+                                                <option  value="625061">Iška vas šola (625061)</option>
+                                                <option  value="625062">Iška vas šola (625062)</option>
+                                                <option  value="604011">Iški most (604011)</option>
+                                                <option  value="604012">Iški most (604012)</option>
+                                                <option  value="603121">Ižanska (603121)</option>
+                                                <option  value="603122">Ižanska (603122)</option>
+                                                <option  value="604061">Ižica (604061)</option>
+                                                <option  value="604062">Ižica (604062)</option>
+                                                <option  value="603011">Jadranska (603011)</option>
+                                                <option  value="603012">Jadranska (603012)</option>
+                                                <option  value="703031">Jamnikarjeva (703031)</option>
+                                                <option  value="703032">Jamnikarjeva (703032)</option>
+                                                <option  value="403011">Jana Husa (403011)</option>
+                                                <option  value="403012">Jana Husa (403012)</option>
+                                                <option  value="744021">Japelj (744021)</option>
+                                                <option  value="744022">Japelj (744022)</option>
+                                                <option  value="203091">Jarše (203091)</option>
+                                                <option  value="203092">Jarše (203092)</option>
+                                                <option  value="425011">Javor pri Sostrem K. (425011)</option>
+                                                <option  value="425012">Javor pri Sostrem K. (425012)</option>
+                                                <option  value="405011">Javor/K. (405011)</option>
+                                                <option  value="405012">Javor/K. (405012)</option>
+                                                <option  value="745061">JEZERO (745061)</option>
+                                                <option  value="104181">Ježa (104181)</option>
+                                                <option  value="104182">Ježa (104182)</option>
+                                                <option  value="104031">Ježica (104031)</option>
+                                                <option  value="104032">Ježica (104032)</option>
+                                                <option  value="104033">Ježica (104033)</option>
+                                                <option  value="104321">JEŽICA P+R (104321)</option>
+                                                <option  value="504041">Jurèkova (504041)</option>
+                                                <option  value="504042">Jurèkova (504042)</option>
+                                                <option  value="815111">Kajakaška (815111)</option>
+                                                <option  value="815112">Kajakaška (815112)</option>
+                                                <option  value="303022">Kajuhova (303022)</option>
+                                                <option  value="104021">Kališnikov trg (104021)</option>
+                                                <option  value="104022">Kališnikov trg (104022)</option>
+                                                <option  value="803181">KAMNA GORICA (803181)</option>
+                                                <option  value="102091">Kardeljeva plošèad (102091)</option>
+                                                <option  value="102092">Kardeljeva plošèad (102092)</option>
+                                                <option  value="203051">Kavèièeva (203051)</option>
+                                                <option  value="203052">Kavèièeva (203052)</option>
+                                                <option  value="802021">Kino Šiška (802021)</option>
+                                                <option  value="802022">Kino Šiška (802022)</option>
+                                                <option  value="402031">Klinièni center (402031)</option>
+                                                <option  value="402032">Klinièni center (402032)</option>
+                                                <option  value="803081">Kneza Koclja (803081)</option>
+                                                <option  value="803082">Kneza Koclja (803082)</option>
+                                                <option  value="403021">Kodeljevo (403021)</option>
+                                                <option  value="403022">Kodeljevo (403022)</option>
+                                                <option  value="403023">Kodeljevo (403023)</option>
+                                                <option  value="203101">Kodrova (203101)</option>
+                                                <option  value="203102">Kodrova (203102)</option>
+                                                <option  value="300011">Kolodvor (300011)</option>
+                                                <option  value="300012">Kolodvor (300012)</option>
+                                                <option  value="104101">Kolodvor Èrnuèe (104101)</option>
+                                                <option  value="104102">Kolodvor Èrnuèe (104102)</option>
+                                                <option  value="835022">Komandata Staneta (835022)</option>
+                                                <option  value="715021">Komanija (715021)</option>
+                                                <option  value="715022">Komanija (715022)</option>
+                                                <option  value="803031">Kompas (803031)</option>
+                                                <option  value="803032">Kompas (803032)</option>
+                                                <option  value="505172">Kongo (505172)</option>
+                                                <option  value="601012">Konzorcij (601012)</option>
+                                                <option  value="603041">Koprska (603041)</option>
+                                                <option  value="603044">Koprska (603044)</option>
+                                                <option  value="803141">Koseze (803141)</option>
+                                                <option  value="803142">Koseze (803142)</option>
+                                                <option  value="826111">Koseze (826111)</option>
+                                                <option  value="826112">Koseze (826112)</option>
+                                                <option  value="826121">Koseze Stare (826121)</option>
+                                                <option  value="826122">Koseze Stare (826122)</option>
+                                                <option  value="804081">Kosmaèeva (804081)</option>
+                                                <option  value="804082">Kosmaèeva (804082)</option>
+                                                <option  value="625041">Kot (625041)</option>
+                                                <option  value="625042">Kot (625042)</option>
+                                                <option  value="803211">Kovinarska (803211)</option>
+                                                <option  value="803212">Kovinarska (803212)</option>
+                                                <option  value="704101">Kozarje (704101)</option>
+                                                <option  value="704102">Kozarje (704102)</option>
+                                                <option  value="714011">Kozarje GD (714011)</option>
+                                                <option  value="714012">Kozarje GD (714012)</option>
+                                                <option  value="614081">Kozler (614081)</option>
+                                                <option  value="614082">Kozler (614082)</option>
+                                                <option  value="404051">KPL (404051)</option>
+                                                <option  value="404052">KPL (404052)</option>
+                                                <option  value="203211">Kranjèeva (203211)</option>
+                                                <option  value="501031">Krekov trg (501031)</option>
+                                                <option  value="501032">Krekov trg (501032)</option>
+                                                <option  value="603031">Krimska (603031)</option>
+                                                <option  value="603032">Krimska (603032)</option>
+                                                <option  value="602061">Križanke (602061)</option>
+                                                <option  value="602062">Križanke (602062)</option>
+                                                <option  value="404081">Križišèe Sostro (404081)</option>
+                                                <option  value="404082">Križišèe Sostro (404082)</option>
+                                                <option  value="404084">Križišèe Sostro (404084)</option>
+                                                <option  value="404101">Krožna pot (404101)</option>
+                                                <option  value="404102">Krožna pot (404102)</option>
+                                                <option  value="536022">Krpan (536022)</option>
+                                                <option  value="101034">Kržièeva (101034)</option>
+                                                <option  value="815021">KS. Pirnièe (815021)</option>
+                                                <option  value="815022">KS. Pirnièe (815022)</option>
+                                                <option  value="727011">Kurja vas/Šentjoštu (727011)</option>
+                                                <option  value="727012">Kurja vas/Šentjoštu (727012)</option>
+                                                <option  value="603111">Lahova pot (603111)</option>
+                                                <option  value="603112">Lahova pot (603112)</option>
+                                                <option  value="406071">Lanišèe (406071)</option>
+                                                <option  value="406072">Lanišèe (406072)</option>
+                                                <option  value="504091">Lavrica (504091)</option>
+                                                <option  value="504092">Lavrica (504092)</option>
+                                                <option  value="504081">Lavrica pri Malèi (504081)</option>
+                                                <option  value="504082">Lavrica pri Malèi (504082)</option>
+                                                <option  value="204011">Leskoškova (204011)</option>
+                                                <option  value="204012">Leskoškova (204012)</option>
+                                                <option  value="204041">Letališka (204041)</option>
+                                                <option  value="204042">Letališka (204042)</option>
+                                                <option  value="204051">LETALIŠKA obr. (204051)</option>
+                                                <option  value="614071">Lipe (614071)</option>
+                                                <option  value="614072">Lipe (614072)</option>
+                                                <option  value="103201">LITOSTROJ (103201)</option>
+                                                <option  value="103202">Litostroj (103202)</option>
+                                                <option  value="103203">Litostroj (103203)</option>
+                                                <option  value="803051">Litostrojska (803051)</option>
+                                                <option  value="803052">Litostrojska (803052)</option>
+                                                <option  value="803053">LITOSTROJSKA (803053)</option>
+                                                <option  value="603091">Livada (603091)</option>
+                                                <option  value="603092">Livada (603092)</option>
+                                                <option  value="716021">Ljubgojna (716021)</option>
+                                                <option  value="716022">Ljubgojna (716022)</option>
+                                                <option  value="300013">LJUBLJANA AP (300013)</option>
+                                                <option  value="404131">Ljubljana Dobrunje (404131)</option>
+                                                <option  value="404132">Ljubljana Dobrunje (404132)</option>
+                                                <option  value="404151">Ljubljana Zadvor (404151)</option>
+                                                <option  value="404152">Ljubljana Zadvor (404152)</option>
+                                                <option  value="505152">Ljubljanska (505152)</option>
+                                                <option  value="803061">Ljubljanske brigade (803061)</option>
+                                                <option  value="803062">Ljubljanske brigade (803062)</option>
+                                                <option  value="725081">Log pri Polh.G. (725081)</option>
+                                                <option  value="725082">Log pri Polh.G. (725082)</option>
+                                                <option  value="736011">Maèkov graben (736011)</option>
+                                                <option  value="736012">Maèkov graben (736012)</option>
+                                                <option  value="415061">MALI LIPOGLAV (415061)</option>
+                                                <option  value="505041">Mali vrh (505041)</option>
+                                                <option  value="505042">Mali vrh (505042)</option>
+                                                <option  value="103161">Maroltova (103161)</option>
+                                                <option  value="103162">Maroltova (103162)</option>
+                                                <option  value="804131">Martinova (804131)</option>
+                                                <option  value="804132">Martinova (804132)</option>
+                                                <option  value="804071">Medno (804071)</option>
+                                                <option  value="804072">Medno (804072)</option>
+                                                <option  value="805021">Medvode (805021)</option>
+                                                <option  value="805022">Medvode (805022)</option>
+                                                <option  value="805023">MEDVODE (805023)</option>
+                                                <option  value="805052">Medvode na klancu (805052)</option>
+                                                <option  value="805041">MEDVODE naselje (805041)</option>
+                                                <option  value="805011">Medvoška a.p. (805011)</option>
+                                                <option  value="805012">Medvoška a.p. (805012)</option>
+                                                <option  value="102081">Mercator (102081)</option>
+                                                <option  value="102082">Mercator (102082)</option>
+                                                <option  value="604031">MESTNI LOG (604031)</option>
+                                                <option  value="604032">Mestni log (604032)</option>
+                                                <option  value="503051">Mihov štradon (503051)</option>
+                                                <option  value="503052">Mihov štradon (503052)</option>
+                                                <option  value="602071">Mirje (602071)</option>
+                                                <option  value="602072">Mirje (602072)</option>
+                                                <option  value="745031">Mostièek (745031)</option>
+                                                <option  value="745032">Mostièek (745032)</option>
+                                                <option  value="102061">Mostovna (102061)</option>
+                                                <option  value="102062">Mostovna (102062)</option>
+                                                <option  value="536012">Mrzle njive (536012)</option>
+                                                <option  value="603061">Murgle (603061)</option>
+                                                <option  value="603062">Murgle (603062)</option>
+                                                <option  value="603064">Murgle (603064)</option>
+                                                <option  value="804211">Murkova (804211)</option>
+                                                <option  value="804212">Murkova (804212)</option>
+                                                <option  value="103081">N. STOŽICE P+R (103081)</option>
+                                                <option  value="704061">Na Gmajnici (704061)</option>
+                                                <option  value="704062">Na Gmajnici (704062)</option>
+                                                <option  value="802031">Na jami (802031)</option>
+                                                <option  value="802032">Na jami (802032)</option>
+                                                <option  value="804091">Na klancu (804091)</option>
+                                                <option  value="804092">Na klancu (804092)</option>
+                                                <option  value="203231">Na Žalah (203231)</option>
+                                                <option  value="203232">Na Žalah (203232)</option>
+                                                <option  value="204131">Nadgorica (204131)</option>
+                                                <option  value="204132">Nadgorica (204132)</option>
+                                                <option  value="100012">Navje (100012)</option>
+                                                <option  value="745041">NOTRANJE GORICE (745041)</option>
+                                                <option  value="203171">NOVE JARŠE (203171)</option>
+                                                <option  value="203161">Nove Jarše-Šmartinska (203161)</option>
+                                                <option  value="203071">Nove Žale (203071)</option>
+                                                <option  value="203072">Nove Žale (203072)</option>
+                                                <option  value="805031">Novo naselje (805031)</option>
+                                                <option  value="805032">Novo naselje (805032)</option>
+                                                <option  value="204101">Novo Polje (204101)</option>
+                                                <option  value="204102">Novo Polje (204102)</option>
+                                                <option  value="504051">NS Rudnik (504051)</option>
+                                                <option  value="504052">NS Rudnik (504052)</option>
+                                                <option  value="504061">NS RUDNIK (504061)</option>
+                                                <option  value="804111">Ob daljnovodu (804111)</option>
+                                                <option  value="804112">Ob daljnovodu (804112)</option>
+                                                <option  value="303032">Ob sotoèju (303032)</option>
+                                                <option  value="104081">Obrtna cona (104081)</option>
+                                                <option  value="104082">Obrtna cona (104082)</option>
+                                                <option  value="804201">Omersova (804201)</option>
+                                                <option  value="804202">Omersova (804202)</option>
+                                                <option  value="503014">Orlova (503014)</option>
+                                                <option  value="304021">Osenjakova (304021)</option>
+                                                <option  value="304022">Osenjakova (304022)</option>
+                                                <option  value="505162">OŠ Brinje  (505162)</option>
+                                                <option  value="745101">OŠ Jezero (745101)</option>
+                                                <option  value="104151">OŠ Maksa Peèarja (104151)</option>
+                                                <option  value="104152">OŠ Maksa Peèarja (104152)</option>
+                                                <option  value="404161">OŠ Sostro (404161)</option>
+                                                <option  value="404162">OŠ Sostro (404162)</option>
+                                                <option  value="804341">Oval (804341)</option>
+                                                <option  value="804342">Oval (804342)</option>
+                                                <option  value="415051">Pance K. (415051)</option>
+                                                <option  value="415052">Pance K. (415052)</option>
+                                                <option  value="101021">Parmova (101021)</option>
+                                                <option  value="101022">Parmova (101022)</option>
+                                                <option  value="503041">Peruzzijeva (503041)</option>
+                                                <option  value="503042">Peruzzijeva (503042)</option>
+                                                <option  value="736021">Petaèev graben (736021)</option>
+                                                <option  value="736022">Petaèev graben (736022)</option>
+                                                <option  value="304111">Petrol (304111)</option>
+                                                <option  value="304112">Petrol (304112)</option>
+                                                <option  value="614011">Pleènikova cerkev (614011)</option>
+                                                <option  value="614012">Pleènikova cerkev (614012)</option>
+                                                <option  value="803121">Plešièeva (803121)</option>
+                                                <option  value="803122">Plešièeva (803122)</option>
+                                                <option  value="403031">Pod Golovcem (403031)</option>
+                                                <option  value="403032">Pod Golovcem (403032)</option>
+                                                <option  value="505111">Pod gozdom (505111)</option>
+                                                <option  value="505112">Pod gozdom (505112)</option>
+                                                <option  value="504071">Pod Hribom (504071)</option>
+                                                <option  value="504072">Pod Hribom (504072)</option>
+                                                <option  value="804191">Pod Kamno Gorico (804191)</option>
+                                                <option  value="702011">Pod Rožnikom (702011)</option>
+                                                <option  value="702012">Pod Rožnikom (702012)</option>
+                                                <option  value="804031">Podgora (804031)</option>
+                                                <option  value="804032">Podgora (804032)</option>
+                                                <option  value="415021">Podlipoglav (415021)</option>
+                                                <option  value="415022">Podlipoglav (415022)</option>
+                                                <option  value="102051">Podmilšèakova (102051)</option>
+                                                <option  value="102052">Podmilšèakova (102052)</option>
+                                                <option  value="703051">Podmornica (703051)</option>
+                                                <option  value="703052">Podmornica (703052)</option>
+                                                <option  value="715121">Podolnica (715121)</option>
+                                                <option  value="715122">Podolnica (715122)</option>
+                                                <option  value="745051">Podpeè  (745051)</option>
+                                                <option  value="745052">Podpeè  (745052)</option>
+                                                <option  value="745111">Podpeè 1 (745111)</option>
+                                                <option  value="745112">Podpeè 1 (745112)</option>
+                                                <option  value="725121">Podreber/Polh.G. (725121)</option>
+                                                <option  value="725122">Podreber/Polh.G. (725122)</option>
+                                                <option  value="715031">Podsmreka GD (715031)</option>
+                                                <option  value="715032">Podsmreka GD (715032)</option>
+                                                <option  value="715051">Podsmreka pri Gorjancu (715051)</option>
+                                                <option  value="715052">Podsmreka pri Gorjancu (715052)</option>
+                                                <option  value="715041">Podsmreka Rotar (715041)</option>
+                                                <option  value="715042">Podsmreka Rotar (715042)</option>
+                                                <option  value="804221">PODUTIK (804221)</option>
+                                                <option  value="103061">Pohorskega bataljona (103061)</option>
+                                                <option  value="103062">Pohorskega bataljona (103062)</option>
+                                                <option  value="203011">Pokopališka (203011)</option>
+                                                <option  value="203012">Pokopališka (203012)</option>
+                                                <option  value="104121">Polanškova (104121)</option>
+                                                <option  value="104122">Polanškova (104122)</option>
+                                                <option  value="726011">POLHOV GRADEC (726011)</option>
+                                                <option  value="402021">Poliklinika (402021)</option>
+                                                <option  value="402022">Poliklinika (402022)</option>
+                                                <option  value="502011">Poljanska (502011)</option>
+                                                <option  value="502012">Poljanska (502012)</option>
+                                                <option  value="304071">Polje (304071)</option>
+                                                <option  value="304072">Polje (304072)</option>
+                                                <option  value="304073">Polje (304073)</option>
+                                                <option  value="304074">Polje (304074)</option>
+                                                <option  value="825031">POLJE obr. (825031)</option>
+                                                <option  value="825032">Polje obraèališèe (825032)</option>
+                                                <option  value="825033">Polje obraèališèe (825033)</option>
+                                                <option  value="304081">Polje-kolodvor (304081)</option>
+                                                <option  value="304082">Polje-kolodvor (304082)</option>
+                                                <option  value="601011">Pošta (601011)</option>
+                                                <option  value="404041">Pošta Dobrunje (404041)</option>
+                                                <option  value="404042">Pošta Dobrunje (404042)</option>
+                                                <option  value="303051">Pot na Fužine (303051)</option>
+                                                <option  value="303052">Pot na Fužine (303052)</option>
+                                                <option  value="603071">Pot na Rakovo jelšo (603071)</option>
+                                                <option  value="603072">Pot na Rakovo jelšo (603072)</option>
+                                                <option  value="104141">Pot v Hrastovec (104141)</option>
+                                                <option  value="104142">Pot v Hrastovec (104142)</option>
+                                                <option  value="104131">Pot v Smreèje (104131)</option>
+                                                <option  value="104132">Pot v Smreèje (104132)</option>
+                                                <option  value="825011">Povodje (825011)</option>
+                                                <option  value="825012">Povodje (825012)</option>
+                                                <option  value="304011">Preglov trg (304011)</option>
+                                                <option  value="304012">Preglov trg (304012)</option>
+                                                <option  value="202021">Prekmurska (202021)</option>
+                                                <option  value="202022">Prekmurska (202022)</option>
+                                                <option  value="703061">Preval (703061)</option>
+                                                <option  value="703062">Preval (703062)</option>
+                                                <option  value="406041">Prežganje Š.   (406041)</option>
+                                                <option  value="406042">Prežganje Š.  (406042)</option>
+                                                <option  value="406031">Prežganje Š. K. (406031)</option>
+                                                <option  value="406032">Prežganje Š. K. (406032)</option>
+                                                <option  value="415071">Pri Dogonivar (415071)</option>
+                                                <option  value="415072">Pri Dogonivar (415072)</option>
+                                                <option  value="415091">Pri Dolencu (415091)</option>
+                                                <option  value="415092">Pri Dolencu (415092)</option>
+                                                <option  value="604051">Pri Maranzu (604051)</option>
+                                                <option  value="604052">Pri Maranzu (604052)</option>
+                                                <option  value="704081">Pri Poku (704081)</option>
+                                                <option  value="415081">Primožev ovinek (415081)</option>
+                                                <option  value="415082">Primožev ovinek (415082)</option>
+                                                <option  value="104113">Primožièeva (104113)</option>
+                                                <option  value="602111">Privoz (602111)</option>
+                                                <option  value="602112">Privoz (602112)</option>
+                                                <option  value="804021">Prušnikova (804021)</option>
+                                                <option  value="804022">Prušnikova (804022)</option>
+                                                <option  value="804181">PRŽAN (804181)</option>
+                                                <option  value="103041">Puhova (103041)</option>
+                                                <option  value="103042">Puhova (103042)</option>
+                                                <option  value="704072">Radna (704072)</option>
+                                                <option  value="503021">Rakovnik (503021)</option>
+                                                <option  value="503022">Rakovnik (503022)</option>
+                                                <option  value="403061">Rast (403061)</option>
+                                                <option  value="403062">Rast (403062)</option>
+                                                <option  value="104211">Rašica (104211)</option>
+                                                <option  value="104212">Rašica (104212)</option>
+                                                <option  value="505051">Razdrto (505051)</option>
+                                                <option  value="505052">Razdrto (505052)</option>
+                                                <option  value="714041">Razori K (714041)</option>
+                                                <option  value="714042">Razori K (714042)</option>
+                                                <option  value="714031">Razori Rogovilc (714031)</option>
+                                                <option  value="714032">Razori Rogovilc (714032)</option>
+                                                <option  value="100021">Razstavišèe (100021)</option>
+                                                <option  value="100022">Razstavišèe (100022)</option>
+                                                <option  value="204161">Reaktor (204161)</option>
+                                                <option  value="204162">Reaktor (204162)</option>
+                                                <option  value="505021">Reber pri Škofljici (505021)</option>
+                                                <option  value="505022">Reber pri Škofljici (505022)</option>
+                                                <option  value="803014">Remiza (803014)</option>
+                                                <option  value="825041">Repnje Benk (825041)</option>
+                                                <option  value="825042">Repnje Benk (825042)</option>
+                                                <option  value="825061">Repnje kapelica (825061)</option>
+                                                <option  value="825062">Repnje kapelica (825062)</option>
+                                                <option  value="825051">Repnje samostan (825051)</option>
+                                                <option  value="825052">Repnje samostan (825052)</option>
+                                                <option  value="204031">Rog (204031)</option>
+                                                <option  value="204032">Rog (204032)</option>
+                                                <option  value="104111">Rogovilc (104111)</option>
+                                                <option  value="104112">Rogovilc (104112)</option>
+                                                <option  value="502021">Roška (502021)</option>
+                                                <option  value="502022">Roška (502022)</option>
+                                                <option  value="502024">Roška (502024)</option>
+                                                <option  value="203021">Rožièeva (203021)</option>
+                                                <option  value="203022">Rožièeva (203022)</option>
+                                                <option  value="703011">Rožna dolina (703011)</option>
+                                                <option  value="703012">Rožna dolina (703012)</option>
+                                                <option  value="504031">RUDNIK (504031)</option>
+                                                <option  value="504032">Rudnik (504032)</option>
+                                                <option  value="504033">Rudnik (504033)</option>
+                                                <option  value="304031">Rusjanov trg (304031)</option>
+                                                <option  value="304032">Rusjanov trg (304032)</option>
+                                                <option  value="103131">Ruski car (103131)</option>
+                                                <option  value="103132">Ruski car (103132)</option>
+                                                <option  value="614061">Rutar (614061)</option>
+                                                <option  value="614062">Rutar (614062)</option>
+                                                <option  value="415011">Sadinja vas (415011)</option>
+                                                <option  value="415012">Sadinja vas (415012)</option>
+                                                <option  value="102011">Samova (102011)</option>
+                                                <option  value="102012">Samova (102012)</option>
+                                                <option  value="505071">Sap (505071)</option>
+                                                <option  value="505072">Sap  (505072)</option>
+                                                <option  value="204201">Saturnus (204201)</option>
+                                                <option  value="104051">Sava (104051)</option>
+                                                <option  value="104052">Sava (104052)</option>
+                                                <option  value="104054">Sava (104054)</option>
+                                                <option  value="104011">SAVLJE (104011)</option>
+                                                <option  value="202031">Savske stolpnice (202031)</option>
+                                                <option  value="202032">Savske stolpnice (202032)</option>
+                                                <option  value="202041">Savsko naselje (202041)</option>
+                                                <option  value="202042">Savsko naselje (202042)</option>
+                                                <option  value="826101">Selo Mali Dunaj (826101)</option>
+                                                <option  value="826102">Selo Mali Dunaj (826102)</option>
+                                                <option  value="415041">Selo pri Pancah K. (415041)</option>
+                                                <option  value="415042">Selo pri Pancah K. (415042)</option>
+                                                <option  value="826051">Selo pri Vodicah (826051)</option>
+                                                <option  value="826052">Selo pri Vodicah (826052)</option>
+                                                <option  value="304131">Silos (304131)</option>
+                                                <option  value="304132">Silos (304132)</option>
+                                                <option  value="825021">Skaruèna (825021)</option>
+                                                <option  value="825022">Skaruèna (825022)</option>
+                                                <option  value="803011">Slovenija avto (803011)</option>
+                                                <option  value="803012">Slovenija avto (803012)</option>
+                                                <option  value="204111">Slovenijales (204111)</option>
+                                                <option  value="204112">Slovenijales (204112)</option>
+                                                <option  value="103071">Smelt (103071)</option>
+                                                <option  value="103072">Smelt (103072)</option>
+                                                <option  value="815121">Smlednik šola (815121)</option>
+                                                <option  value="815122">Smlednik šola (815122)</option>
+                                                <option  value="737021">Smolnik nad hribom (737021)</option>
+                                                <option  value="737022">Smolnik nad hribom (737022)</option>
+                                                <option  value="737011">Smolnik Praprotnik (737011)</option>
+                                                <option  value="737012">Smolnik Praprotnik (737012)</option>
+                                                <option  value="736051">Smolnik Setnik (736051)</option>
+                                                <option  value="736052">Smolnik Setnik (736052)</option>
+                                                <option  value="736041">Smolnik Zalog (736041)</option>
+                                                <option  value="736042">Smolnik Zalog (736042)</option>
+                                                <option  value="736031">Smolnik žaga (736031)</option>
+                                                <option  value="736032">Smolnik žaga (736032)</option>
+                                                <option  value="406051">Smrekarjevo (406051)</option>
+                                                <option  value="406052">Smrekarjevo (406052)</option>
+                                                <option  value="204071">Sneberje (204071)</option>
+                                                <option  value="204072">Sneberje (204072)</option>
+                                                <option  value="614091">Snoj (614091)</option>
+                                                <option  value="614092">Snoj (614092)</option>
+                                                <option  value="404091">SOSTRO (404091)</option>
+                                                <option  value="404092">Sostro (404092)</option>
+                                                <option  value="404093">Sostro (404093)</option>
+                                                <option  value="104331">Sp. Gameljne 1 (104331)</option>
+                                                <option  value="104332">Sp. Gameljne 1 (104332)</option>
+                                                <option  value="104341">Sp. Gameljne 2 (104341)</option>
+                                                <option  value="104342">Sp. Gameljne 2 (104342)</option>
+                                                <option  value="104351">Sp. Gameljne 3 (104351)</option>
+                                                <option  value="104352">Sp. Gameljne 3 (104352)</option>
+                                                <option  value="803171">Spar (803171)</option>
+                                                <option  value="803172">Spar (803172)</option>
+                                                <option  value="504021">Spodnji Rudnik (504021)</option>
+                                                <option  value="504022">Spodnji Rudnik (504022)</option>
+                                                <option  value="725131">Sr.vas pri Polh.G. (725131)</option>
+                                                <option  value="725132">Sr.vas pri Polh.G. (725132)</option>
+                                                <option  value="202043">Središka (202043)</option>
+                                                <option  value="202044">Središka (202044)</option>
+                                                <option  value="102041">Stadion (102041)</option>
+                                                <option  value="102042">Stadion (102042)</option>
+                                                <option  value="625031">Staje (625031)</option>
+                                                <option  value="625032">Staje (625032)</option>
+                                                <option  value="703071">Stan in dom (703071)</option>
+                                                <option  value="703072">Stan in dom (703072)</option>
+                                                <option  value="804061">Stanežièe (804061)</option>
+                                                <option  value="804062">Stanežièe (804062)</option>
+                                                <option  value="804361">STANEŽIÈE (804361)</option>
+                                                <option  value="802011">Stara cerkev (802011)</option>
+                                                <option  value="802012">Stara cerkev (802012)</option>
+                                                <option  value="505101">Stara pošta (505101)</option>
+                                                <option  value="505102">Stara pošta (505102)</option>
+                                                <option  value="103101">Stožice (103101)</option>
+                                                <option  value="103102">Stožice (103102)</option>
+                                                <option  value="503011">Strelišèe (503011)</option>
+                                                <option  value="503012">Strelišèe (503012)</option>
+                                                <option  value="502031">Streliška (502031)</option>
+                                                <option  value="502032">Streliška (502032)</option>
+                                                <option  value="304061">Studenec (304061)</option>
+                                                <option  value="304062">Studenec (304062)</option>
+                                                <option  value="727021">SUHI DOL (727021)</option>
+                                                <option  value="702031">Svetèeva (702031)</option>
+                                                <option  value="702032">Svetèeva (702032)</option>
+                                                <option  value="835031">Svetje (835031)</option>
+                                                <option  value="406011">Šemnikar (406011)</option>
+                                                <option  value="406012">Šemnikar (406012)</option>
+                                                <option  value="204151">Šentjakob (204151)</option>
+                                                <option  value="204152">Šentjakob (204152)</option>
+                                                <option  value="716051">ŠENTJOŠT (716051)</option>
+                                                <option  value="804041">Šentvid (804041)</option>
+                                                <option  value="804042">Šentvid (804042)</option>
+                                                <option  value="826131">Šinkov Turn (826131)</option>
+                                                <option  value="826132">Šinkov Turn (826132)</option>
+                                                <option  value="826141">Šinkov Turn hrib (826141)</option>
+                                                <option  value="826142">Šinkov Turn hrib (826142)</option>
+                                                <option  value="803016">Šišenska (803016)</option>
+                                                <option  value="515012">Škofljica (515012)</option>
+                                                <option  value="505011">Škofljica Javornik (505011)</option>
+                                                <option  value="505012">Škofljica Javornik (505012)</option>
+                                                <option  value="515013">ŠKOFLJICA obr. (515013)</option>
+                                                <option  value="504101">Škofljica Petkovšek (504101)</option>
+                                                <option  value="504102">Škofljica Petkovšek (504102)</option>
+                                                <option  value="515011">Škofljica špica (515011)</option>
+                                                <option  value="504111">Škofljica žaga (504111)</option>
+                                                <option  value="504112">Škofljica žaga (504112)</option>
+                                                <option  value="104071">Šlandrova (104071)</option>
+                                                <option  value="104072">Šlandrova (104072)</option>
+                                                <option  value="505061">Šmarje (505061)</option>
+                                                <option  value="505062">Šmarje (505062)</option>
+                                                <option  value="104191">Šmartno (104191)</option>
+                                                <option  value="104192">Šmartno (104192)</option>
+                                                <option  value="104193">Šmartno pod Š.G. (104193)</option>
+                                                <option  value="104194">Šmartno pod Š.G. (104194)</option>
+                                                <option  value="203041">Šola Jarše (203041)</option>
+                                                <option  value="203042">Šola Jarše (203042)</option>
+                                                <option  value="203044">Šola Jarše (203044)</option>
+                                                <option  value="744011">Šolska (744011)</option>
+                                                <option  value="744012">Šolska (744012)</option>
+                                                <option  value="505031">Špilar (505031)</option>
+                                                <option  value="505032">Špilar (505032)</option>
+                                                <option  value="103182">Štajerska (103182)</option>
+                                                <option  value="403041">Štepanja vas (403041)</option>
+                                                <option  value="403042">Štepanja vas (403042)</option>
+                                                <option  value="403043">Štepanja vas (403043)</option>
+                                                <option  value="303041">ŠTEPANJSKO NAS. (303041)</option>
+                                                <option  value="303043">ŠTEPANJSKO NAS. (303043)</option>
+                                                <option  value="702021">Študentsko naselje (702021)</option>
+                                                <option  value="702022">Študentsko naselje (702022)</option>
+                                                <option  value="601041">Šubièeva (601041)</option>
+                                                <option  value="601042">Šubièeva (601042)</option>
+                                                <option  value="725021">Šuica (725021)</option>
+                                                <option  value="725022">Šuica (725022)</option>
+                                                <option  value="804101">Tabor (804101)</option>
+                                                <option  value="804102">Tabor (804102)</option>
+                                                <option  value="804104">Tabor (804104)</option>
+                                                <option  value="804151">Tacen (804151)</option>
+                                                <option  value="804152">Tacen (804152)</option>
+                                                <option  value="804141">Tacenski most (804141)</option>
+                                                <option  value="804142">Tacenski most (804142)</option>
+                                                <option  value="804144">Tacenski most (804144)</option>
+                                                <option  value="500011">Tavèarjeva (500011)</option>
+                                                <option  value="603141">Tbilisijska (603141)</option>
+                                                <option  value="603142">Tbilisijska (603142)</option>
+                                                <option  value="803071">Tehnounion (803071)</option>
+                                                <option  value="803072">Tehnounion (803072)</option>
+                                                <option  value="802061">Tiki (802061)</option>
+                                                <option  value="802062">Tiki (802062)</option>
+                                                <option  value="801011">Tivoli (801011)</option>
+                                                <option  value="801012">Tivoli (801012)</option>
+                                                <option  value="701011">Tivolska (701011)</option>
+                                                <option  value="701012">Tivolska (701012)</option>
+                                                <option  value="602041">Tobaèna (602041)</option>
+                                                <option  value="602042">Tobaèna (602042)</option>
+                                                <option  value="203081">TOMAÈEVO (203081)</option>
+                                                <option  value="203031">Tomaèevska (203031)</option>
+                                                <option  value="203032">Tomaèevska (203032)</option>
+                                                <option  value="103011">Toplarna (103011)</option>
+                                                <option  value="103012">Toplarna (103012)</option>
+                                                <option  value="102021">Topniška (102021)</option>
+                                                <option  value="102022">Topniška (102022)</option>
+                                                <option  value="103051">Tovarna Lek (103051)</option>
+                                                <option  value="103052">Tovarna Lek (103052)</option>
+                                                <option  value="203061">Tovorni kolodvor (203061)</option>
+                                                <option  value="203062">Tovorni kolodvor (203062)</option>
+                                                <option  value="804011">Trata (804011)</option>
+                                                <option  value="804012">Trata (804012)</option>
+                                                <option  value="406021">Trebeljevo (406021)</option>
+                                                <option  value="406022">Trebeljevo (406022)</option>
+                                                <option  value="300015">KOLODVOR (300015)</option>
+                                                <option  value="602121">TRNOVO (602121)</option>
+                                                <option  value="803101">Tržnica Koseze (803101)</option>
+                                                <option  value="803102">Tržnica Koseze (803102)</option>
+                                                <option  value="303011">Tržnica Moste (303011)</option>
+                                                <option  value="303012">Tržnica Moste (303012)</option>
+                                                <option  value="406081">TUJI GRM (406081)</option>
+                                                <option  value="500012">Turist (500012)</option>
+                                                <option  value="826041">Utik (826041)</option>
+                                                <option  value="826042">Utik (826042)</option>
+                                                <option  value="815091">Valburga (815091)</option>
+                                                <option  value="815092">Valburga (815092)</option>
+                                                <option  value="703181">Veèna pot (703181)</option>
+                                                <option  value="703182">Veèna pot (703182)</option>
+                                                <option  value="415031">Veliki Lipoglav (415031)</option>
+                                                <option  value="415032">Veliki Lipoglav (415032)</option>
+                                                <option  value="603081">Veliki štradon (603081)</option>
+                                                <option  value="603082">Veliki štradon (603082)</option>
+                                                <option  value="835011">Verje (835011)</option>
+                                                <option  value="835012">Verje (835012)</option>
+                                                <option  value="826061">Vesca (826061)</option>
+                                                <option  value="826062">Vesca (826062)</option>
+                                                <option  value="304101">VEVÈE (304101)</option>
+                                                <option  value="304102">Vevèe (304102)</option>
+                                                <option  value="304121">Vevèe Papirnica (304121)</option>
+                                                <option  value="304122">Vevèe Papirnica (304122)</option>
+                                                <option  value="202011">Viadukt (202011)</option>
+                                                <option  value="202012">Viadukt (202012)</option>
+                                                <option  value="703091">Viè (703091)</option>
+                                                <option  value="703092">Viè (703092)</option>
+                                                <option  value="815011">Vikrèe (815011)</option>
+                                                <option  value="815012">Vikrèe (815012)</option>
+                                                <option  value="703041">Viško polje (703041)</option>
+                                                <option  value="703042">Viško polje (703042)</option>
+                                                <option  value="804051">VIŽMARJE (804051)</option>
+                                                <option  value="826011">VODICE (826011)</option>
+                                                <option  value="826012">VODICE (826012)</option>
+                                                <option  value="826091">Vodice OŠ (826091)</option>
+                                                <option  value="826092">Vodice OŠ (826092)</option>
+                                                <option  value="505122">Vodièar (505122)</option>
+                                                <option  value="102071">Vodovodna (102071)</option>
+                                                <option  value="102072">Vodovodna (102072)</option>
+                                                <option  value="826081">Vojsko (826081)</option>
+                                                <option  value="826082">Vojsko (826082)</option>
+                                                <option  value="406061">Volavlje (406061)</option>
+                                                <option  value="406062">Volavlje (406062)</option>
+                                                <option  value="704031">VRHOVCI (704031)</option>
+                                                <option  value="716041">Vrzdenec (716041)</option>
+                                                <option  value="203191">Yulon (203191)</option>
+                                                <option  value="203192">Yulon (203192)</option>
+                                                <option  value="204081">ZADOBROVA (204081)</option>
+                                                <option  value="204082">Zadobrova (204082)</option>
+                                                <option  value="204083">Zadobrova (204083)</option>
+                                                <option  value="204181">Zadružni dom (204181)</option>
+                                                <option  value="204182">Zadružni dom (204182)</option>
+                                                <option  value="404061">Zadvor (404061)</option>
+                                                <option  value="404062">Zadvor (404062)</option>
+                                                <option  value="715131">Zaklanec/Horjulu (715131)</option>
+                                                <option  value="715132">Zaklanec/Horjulu (715132)</option>
+                                                <option  value="204211">ZALOG (204211)</option>
+                                                <option  value="303021">Zaloška (303021)</option>
+                                                <option  value="303024">Zaloška (303024)</option>
+                                                <option  value="825081">Zapoge (825081)</option>
+                                                <option  value="825082">Zapoge (825082)</option>
+                                                <option  value="825111">ZAPOGE obr. (825111)</option>
+                                                <option  value="104171">Zasavska (104171)</option>
+                                                <option  value="104172">Zasavska (104172)</option>
+                                                <option  value="815141">Zavrh (815141)</option>
+                                                <option  value="815142">Zavrh (815142)</option>
+                                                <option  value="805091">Zbilje barka (805091)</option>
+                                                <option  value="805092">Zbilje barka (805092)</option>
+                                                <option  value="805081">Zbilje jezero (805081)</option>
+                                                <option  value="805082">Zbilje jezero (805082)</option>
+                                                <option  value="805071">Zbilje K (805071)</option>
+                                                <option  value="805072">Zbilje K (805072)</option>
+                                                <option  value="805061">Zbiljski Gaj (805061)</option>
+                                                <option  value="805062">Zbiljski Gaj (805062)</option>
+                                                <option  value="202051">ZELENA JAMA (202051)</option>
+                                                <option  value="204191">Zeleni gaj (204191)</option>
+                                                <option  value="204192">Zeleni gaj (204192)</option>
+                                                <option  value="405071">Zg. Besnica (405071)</option>
+                                                <option  value="405072">Zg. Besnica (405072)</option>
+                                                <option  value="104201">Zg. Gameljne (104201)</option>
+                                                <option  value="104202">Zg. Gameljne (104202)</option>
+                                                <option  value="815031">Zg. Pirnièe (815031)</option>
+                                                <option  value="815032">Zg. Pirnièe (815032)</option>
+                                                <option  value="815041">Zg. Pirnièe Mihovec (815041)</option>
+                                                <option  value="803091">Zgornja Šiška (803091)</option>
+                                                <option  value="803092">Zgornja Šiška (803092)</option>
+                                                <option  value="704141">Zgornji log (704141)</option>
+                                                <option  value="704142">Zgornji log (704142)</option>
+                                                <option  value="614051">Zidarjevec (614051)</option>
+                                                <option  value="614052">Zidarjevec (614052)</option>
+                                                <option  value="602092">Ziherlova (602092)</option>
+                                                <option  value="602093">Ziherlova (602093)</option>
+                                                <option  value="501021">Zmajski most (501021)</option>
+                                                <option  value="501022">Zmajski most (501022)</option>
+                                                <option  value="202061">Žale (202061)</option>
+                                                <option  value="202062">Žale (202062)</option>
+                                                <option  value="716031">Žažar (716031)</option>
+                                                <option  value="716032">Žažar (716032)</option>
+                                                <option  value="201011">ŽELEZNA (201011)</option>
+                                                <option  value="725061">Žirovnik (725061)</option>
+                                                <option  value="725062">Žirovnik (725062)</option>
+                                                <option  value="203151">Žito (203151)</option>
+                                                <option  value="203152">Žito (203152)</option>
+                                                <option  value="703121">Živalski vrt (703121)</option>
+                                                <option  value="703122">Živalski vrt (703122)</option>
+                                    </select>
+        </div>
+        
+        <div class="col-sm-6">
+            <label for="line">ali linijo</label>
+            <select id="line" name="line" onchange="$('#stop').val(0);submit()">
+                <option value="0">-</option>
+                                            <option  value="282">1 - MESTNI LOG - VIŽMARJE</option>
+                                                        <option selected='selected' value="283">1B - GAMELJNE - MESTNI LOG</option>
+                                                        <option  value="281">1D - D. MOST P+R - VIŽMARJE</option>
+                                                        <option  value="336">N1 - Bavarski dvor (Kozolec) - BROD</option>
+                                                        <option  value="22">2 - NOVE JARŠE - ZELENA JAMA</option>
+                                                        <option  value="331">3 - LITOSTROJ - RUDNIK</option>
+                                                        <option  value="94">3B - LITOSTROJ - ŠKOFLJICA obr.</option>
+                                                        <option  value="342">3G - ŽELEZNA - GROSUPLJE</option>
+                                                        <option  value="337">N3 - Bavarski dvor (Kozolec) - RUDNIK</option>
+                                                        <option  value="142">N3B - Bavarski dvor (Kozolec) - ŠKOFLJICA obr.</option>
+                                                        <option  value="96">5 - PODUTIK - ŠTEPANJSKO NAS.</option>
+                                                        <option  value="143">N5 - PODUTIK - ŠTEPANJSKO NAS.</option>
+                                                        <option  value="275">6 - ÈRNUÈE - D. MOST P+R</option>
+                                                        <option  value="211">6B - ŽELEZNA - NOTRANJE GORICE</option>
+                                                        <option  value="98">7 - NOVE JARŠE - PRŽAN</option>
+                                                        <option  value="99">7L - LETALIŠKA obr. - PRŽAN</option>
+                                                        <option  value="33">8 - GAMELJNE - BRNÈIÈEVA</option>
+                                                        <option  value="101">9 - ŠTEPANJSKO NAS. - TRNOVO</option>
+                                                        <option  value="338">11 - JEŽICA P+R - ZALOG</option>
+                                                        <option  value="339">11B - ŽELEZNA - ZALOG</option>
+                                                        <option  value="104">12 - ŽELEZNA - VEVÈE</option>
+                                                        <option  value="39">13 - C. STOŽICE P+R - SOSTRO</option>
+                                                        <option  value="105">14 - SAVLJE - VRHOVCI</option>
+                                                        <option  value="106">14B - SAVLJE - BOKALCE</option>
+                                                        <option  value="340">15 - STANEŽIÈE - MEDVODE</option>
+                                                        <option  value="212">18 - KOLODVOR - C. STOŽICE P+R</option>
+                                                        <option  value="213">18L - KOLODVOR - LITOSTROJSKA</option>
+                                                        <option  value="312">19B - TOMAÈEVO - JEZERO</option>
+                                                        <option  value="146">19I - TOMAÈEVO - IŠKA VAS obr.</option>
+                                                        <option  value="335">19Z - NOTRANJE GORICE - JEZERO</option>
+                                                        <option  value="117">20 - FUŽINE P+R - N. STOŽICE P+R</option>
+                                                        <option  value="108">20Z - ZALOG - N. STOŽICE P+R</option>
+                                                        <option  value="278">21 - BERIÈEVO - GAMELJNE</option>
+                                                        <option  value="109">22 - FUŽINE P+R - KAMNA GORICA</option>
+                                                        <option  value="110">24 - Žale - BIZOVIK</option>
+                                                        <option  value="112">25 - MEDVODE naselje - ZADOBROVA</option>
+                                                        <option  value="113">27 - LETALIŠKA obr. - NS RUDNIK</option>
+                                                        <option  value="341">27K - Bavarski dvor (Korabar) - BTC-ATLANTIS</option>
+                                                        <option  value="57">28 - Kajuhova - MALI LIPOGLAV</option>
+                                                        <option  value="115">29 - Kajuhova - TUJI GRM</option>
+                                                        <option  value="116">30 - MEDVODE - VODICE</option>
+                                                        <option  value="119">51 - LJUBLJANA AP - POLHOV GRADEC</option>
+                                                        <option  value="120">52 - POLHOV GRADEC - ÈRNI VRH</option>
+                                                        <option  value="62">53 - POLHOV GRADEC - SUHI DOL</option>
+                                                        <option  value="138">56 - LJUBLJANA AP - ŠENTJOŠT</option>
+                                                        <option  value="210">60 - LJUBLJANA AP - POLJE obr.</option>
+                                                        <option  value="343">61 - VODICE - Vojsko</option>
+                                        </select>
+        </div>
+    </fieldset>
+</form><div class="container">
+        <h1>Linija: <strong>1B</strong>
+        <a href="tmp/pdf/navodila.pdf" class="btn pdf btn-success" title="Navodila za branje postajališènih voznih redov">Navodila</a>
+    </h1>
+    <div class="lineWrapper active" id="line283">
+<div class="col-md-6">    
+            <div class="lineFiles dir1">
+            <h3>Linija <b>1B</b>, smer: <b>Mestni log</b></h3>
+                    </div>
+                    <div class="lineDir">
+                                    <a href="?stop=104221&ref=283" class="stop">
+                        GAMELJNE <em>104221</em>
+                    </a>
+                                        <a href="?stop=104211&ref=283" class="stop">
+                        Rašica <em>104211</em>
+                    </a>
+                                        <a href="?stop=104201&ref=283" class="stop">
+                        Zg. Gameljne <em>104201</em>
+                    </a>
+                                        <a href="?stop=104191&ref=283" class="stop">
+                        Šmartno <em>104191</em>
+                    </a>
+                                        <a href="?stop=804151&ref=283" class="stop">
+                        Tacen <em>804151</em>
+                    </a>
+                                        <a href="?stop=804141&ref=283" class="stop">
+                        Tacenski most <em>804141</em>
+                    </a>
+                                        <a href="?stop=804111&ref=283" class="stop">
+                        Ob daljnovodu <em>804111</em>
+                    </a>
+                                        <a href="?stop=804101&ref=283" class="stop">
+                        Tabor <em>804101</em>
+                    </a>
+                                        <a href="?stop=804091&ref=283" class="stop">
+                        Na klancu <em>804091</em>
+                    </a>
+                                        <a href="?stop=804081&ref=283" class="stop">
+                        Kosmaèeva <em>804081</em>
+                    </a>
+                                        <a href="?stop=804051&ref=283" class="stop">
+                        VIŽMARJE <em>804051</em>
+                    </a>
+                                        <a href="?stop=804041&ref=283" class="stop">
+                        Šentvid <em>804041</em>
+                    </a>
+                                        <a href="?stop=804031&ref=283" class="stop">
+                        Podgora <em>804031</em>
+                    </a>
+                                        <a href="?stop=804021&ref=283" class="stop">
+                        Prušnikova <em>804021</em>
+                    </a>
+                                        <a href="?stop=804011&ref=283" class="stop">
+                        Trata <em>804011</em>
+                    </a>
+                                        <a href="?stop=803041&ref=283" class="stop">
+                        Dravlje <em>803041</em>
+                    </a>
+                                        <a href="?stop=803031&ref=283" class="stop">
+                        Kompas <em>803031</em>
+                    </a>
+                                        <a href="?stop=803021&ref=283" class="stop">
+                        Avtomontaža <em>803021</em>
+                    </a>
+                                        <a href="?stop=803011&ref=283" class="stop">
+                        Slovenija avto <em>803011</em>
+                    </a>
+                                        <a href="?stop=802021&ref=283" class="stop">
+                        Kino Šiška <em>802021</em>
+                    </a>
+                                        <a href="?stop=802011&ref=283" class="stop">
+                        Stara cerkev <em>802011</em>
+                    </a>
+                                        <a href="?stop=801011&ref=283" class="stop">
+                        Tivoli <em>801011</em>
+                    </a>
+                                        <a href="?stop=700011&ref=283" class="stop">
+                        Gosposvetska <em>700011</em>
+                    </a>
+                                        <a href="?stop=600022&ref=283" class="stop">
+                        Ajdovšèina <em>600022</em>
+                    </a>
+                                        <a href="?stop=601012&ref=283" class="stop">
+                        Konzorcij <em>601012</em>
+                    </a>
+                                        <a href="?stop=602022&ref=283" class="stop">
+                        Drama <em>602022</em>
+                    </a>
+                                        <a href="?stop=602052&ref=283" class="stop">
+                        Aškerèeva <em>602052</em>
+                    </a>
+                                        <a href="?stop=602042&ref=283" class="stop">
+                        Tobaèna <em>602042</em>
+                    </a>
+                                        <a href="?stop=602032&ref=283" class="stop">
+                        Hajdrihova <em>602032</em>
+                    </a>
+                                        <a href="?stop=603012&ref=283" class="stop">
+                        Jadranska <em>603012</em>
+                    </a>
+                                        <a href="?stop=603022&ref=283" class="stop">
+                        Gerbièeva <em>603022</em>
+                    </a>
+                                        <a href="?stop=603032&ref=283" class="stop">
+                        Krimska <em>603032</em>
+                    </a>
+                                        <a href="?stop=603044&ref=283" class="stop">
+                        Koprska <em>603044</em>
+                    </a>
+                                        <a href="?stop=603142&ref=283" class="stop">
+                        Tbilisijska <em>603142</em>
+                    </a>
+                                        <a href="?stop=604031&ref=283" class="stop">
+                        MESTNI LOG <em>604031</em>
+                    </a>
+                                </div>    
+            </div>    
+<div class="col-md-6">    
+            <div class="lineFiles dir2">
+            <h3>Linija <b>1B</b>, smer: <b>Gameljne</b></h3>
+                    </div>
+                    <div class="lineDir">
+                                    <a href="?stop=604031&ref=283" class="stop">
+                        MESTNI LOG <em>604031</em>
+                    </a>
+                                        <a href="?stop=603141&ref=283" class="stop">
+                        Tbilisijska <em>603141</em>
+                    </a>
+                                        <a href="?stop=603041&ref=283" class="stop">
+                        Koprska <em>603041</em>
+                    </a>
+                                        <a href="?stop=603031&ref=283" class="stop">
+                        Krimska <em>603031</em>
+                    </a>
+                                        <a href="?stop=603021&ref=283" class="stop">
+                        Gerbièeva <em>603021</em>
+                    </a>
+                                        <a href="?stop=603011&ref=283" class="stop">
+                        Jadranska <em>603011</em>
+                    </a>
+                                        <a href="?stop=602031&ref=283" class="stop">
+                        Hajdrihova <em>602031</em>
+                    </a>
+                                        <a href="?stop=602041&ref=283" class="stop">
+                        Tobaèna <em>602041</em>
+                    </a>
+                                        <a href="?stop=602051&ref=283" class="stop">
+                        Aškerèeva <em>602051</em>
+                    </a>
+                                        <a href="?stop=602021&ref=283" class="stop">
+                        Drama <em>602021</em>
+                    </a>
+                                        <a href="?stop=601011&ref=283" class="stop">
+                        Pošta <em>601011</em>
+                    </a>
+                                        <a href="?stop=600021&ref=283" class="stop">
+                        Ajdovšèina <em>600021</em>
+                    </a>
+                                        <a href="?stop=700012&ref=283" class="stop">
+                        Gosposvetska <em>700012</em>
+                    </a>
+                                        <a href="?stop=801012&ref=283" class="stop">
+                        Tivoli <em>801012</em>
+                    </a>
+                                        <a href="?stop=802012&ref=283" class="stop">
+                        Stara cerkev <em>802012</em>
+                    </a>
+                                        <a href="?stop=802022&ref=283" class="stop">
+                        Kino Šiška <em>802022</em>
+                    </a>
+                                        <a href="?stop=803014&ref=283" class="stop">
+                        Remiza <em>803014</em>
+                    </a>
+                                        <a href="?stop=803022&ref=283" class="stop">
+                        Avtomontaža <em>803022</em>
+                    </a>
+                                        <a href="?stop=803032&ref=283" class="stop">
+                        Kompas <em>803032</em>
+                    </a>
+                                        <a href="?stop=803042&ref=283" class="stop">
+                        Dravlje <em>803042</em>
+                    </a>
+                                        <a href="?stop=804012&ref=283" class="stop">
+                        Trata <em>804012</em>
+                    </a>
+                                        <a href="?stop=804022&ref=283" class="stop">
+                        Prušnikova <em>804022</em>
+                    </a>
+                                        <a href="?stop=804032&ref=283" class="stop">
+                        Podgora <em>804032</em>
+                    </a>
+                                        <a href="?stop=804042&ref=283" class="stop">
+                        Šentvid <em>804042</em>
+                    </a>
+                                        <a href="?stop=804051&ref=283" class="stop">
+                        VIŽMARJE <em>804051</em>
+                    </a>
+                                        <a href="?stop=804082&ref=283" class="stop">
+                        Kosmaèeva <em>804082</em>
+                    </a>
+                                        <a href="?stop=804092&ref=283" class="stop">
+                        Na klancu <em>804092</em>
+                    </a>
+                                        <a href="?stop=804102&ref=283" class="stop">
+                        Tabor <em>804102</em>
+                    </a>
+                                        <a href="?stop=804112&ref=283" class="stop">
+                        Ob daljnovodu <em>804112</em>
+                    </a>
+                                        <a href="?stop=804142&ref=283" class="stop">
+                        Tacenski most <em>804142</em>
+                    </a>
+                                        <a href="?stop=804152&ref=283" class="stop">
+                        Tacen <em>804152</em>
+                    </a>
+                                        <a href="?stop=104192&ref=283" class="stop">
+                        Šmartno <em>104192</em>
+                    </a>
+                                        <a href="?stop=104202&ref=283" class="stop">
+                        Zg. Gameljne <em>104202</em>
+                    </a>
+                                        <a href="?stop=104212&ref=283" class="stop">
+                        Rašica <em>104212</em>
+                    </a>
+                                        <a href="?stop=104221&ref=283" class="stop">
+                        GAMELJNE <em>104221</em>
+                    </a>
+                                </div>    
+            </div>
+</div></div>            		<script src="tmp/66901d21d782ade7074272f9f2092c42.js"></script>
+                    </body>
+    </html>
+    

@@ -1,0 +1,1123 @@
+102032 ~ Gasilska brigada - 102032
+Dob/Šentvidu - Dob/Šentvidu
+700012 ~ Hotel Lev - 700012
+600012 ~ Bavarski dvor (Kozolec) - 600012
+600011 ~ Bavarski dvor (Korabar) - 600011
+700011 ~ Figovec - 700011
+801012 ~ Tivoli / Ljubljana Tivoli - 801012
+803014 ~ Remiza / Ljubljana Šiška - 803014
+801011 ~ Tivoli / Ljubljana Tivoli - 801011
+802012 ~ Stara cerkev - 802012
+803016 ~ Šišenska - 803016
+803012 ~ Slovenija avto - 803012
+802021 ~ Kino Šiška / Ljubljana Šiška - 802021
+802011 ~ Stara cerkev - 802011
+802022 ~ Kino Šiška - 802022
+803011 ~ Slovenija avto - 803011
+803022 ~ Avtomontaža - 803022
+803021 ~ Avtomontaža - 803021
+804032 ~ Podgora - 804032
+803042 ~ Dravlje - 803042
+803041 ~ Dravlje - 803041
+804051 ~ Vižmarje - 804051
+804082 ~ Kosmačeva - 804082
+803032 ~ Kompas - 803032
+804081 ~ Kosmačeva - 804081
+804021 ~ Prušnikova - 804021
+804031 ~ Podgora - 804031
+804041 ~ Šentvid / Ljubljana Šentvid - 804041
+804042 ~ Šentvid / Ljubljana Šentvid - 804042
+804012 ~ Trata / Ljubljana Trata - 804012
+804011 ~ Trata / Ljubljana Trata - 804011
+804022 ~ Prušnikova - 804022
+803031 ~ Kompas - 803031
+804112 ~ Ob daljnovodu - 804112
+804111 ~ Ob daljnovodu - 804111
+804121 ~ Brod - 804121
+804122 ~ Brod - 804122
+804141 ~ Tacenski most / Ljubljana Tacen - 804141
+804091 ~ Na klancu - 804091
+804092 ~ Na klancu - 804092
+804102 ~ Tabor - 804102
+804142 ~ Tacenski most / Ljubljana Tacen - 804142
+804144 ~ Tacenski most - 804144
+804101 ~ Tabor - 804101
+804104 ~ Tabor - 804104
+804131 ~ Martinova - 804131
+104192 ~ Šmartno - 104192
+804151 ~ Tacen - 804151
+804152 ~ Tacen - 804152
+104191 ~ Šmartno - 104191
+104201 ~ Zg. Gameljne - 104201
+104211 ~ Rašica - 104211
+104212 ~ Rašica - 104212
+104221 ~ Gameljne - 104221
+104202 ~ Zg. Gameljne - 104202
+602022 ~ Drama - 602022
+600022 ~ Ajdovščina - 600022
+601011 ~ Pošta - 601011
+601012 ~ Konzorcij - 601012
+602021 ~ Drama - 602021
+602032 ~ Hajdrihova - 602032
+602052 ~ Aškerčeva / Ljubljana Aškerčeva - 602052
+602041 ~ Tobačna - 602041
+602042 ~ Tobačna / Ljubljana Tobačna - 602042
+602031 ~ Hajdrihova / Ljubljana Langusova - 602031
+602051 ~ Aškerčeva / Ljubljana Aškerčeva - 602051
+603031 ~ Krimska - 603031
+603021 ~ Gerbičeva - 603021
+603032 ~ Krimska - 603032
+603022 ~ Gerbičeva - 603022
+603012 ~ Jadranska - 603012
+603011 ~ Jadranska - 603011
+604031 ~ Mestni log - 604031
+603041 ~ Koprska - 603041
+603044 ~ Koprska - 603044
+203011 ~ Pokopališka - 203011
+203044 ~ Šola Jarše - 203044
+203091 ~ Jarše - 203091
+203092 ~ Jarše - 203092
+203102 ~ Kodrova / Ljubljana Nove Jarše - 203102
+203152 ~ Žito - 203152
+203151 ~ Žito - 203151
+203101 ~ Kodrova / Ljubljana Nove Jarše - 203101
+203171 ~ Nove Jarše - 203171
+203012 ~ Pokopališka - 203012
+203041 ~ Šola Jarše - 203041
+203042 ~ Šola Jarše - 203042
+202051 ~ Zelena jama - 202051
+202082 ~ Flajšmanova - 202082
+203052 ~ Kavčičeva - 203052
+203061 ~ Tovorni kolodvor - 203061
+203051 ~ Kavčičeva - 203051
+203062 ~ Tovorni kolodvor - 203062
+203022 ~ Rožičeva - 203022
+203021 ~ Rožičeva - 203021
+303012 ~ Tržnica Moste - 303012
+303032 ~ Ob sotočju - 303032
+303022 ~ Kajuhova - 303022
+303021 ~ Zaloška - 303021
+303024 ~ Zaloška - 303024
+303011 ~ Tržnica Moste - 303011
+402041 ~ Bolnica - 402041
+402031 ~ Klinični center - 402031
+402042 ~ Bolnica - 402042
+402032 ~ Klinični center - 402032
+502013 ~ Ambrožev trg - 502013
+501032 ~ Krekov trg - 501032
+402011 ~ Hrvatski trg - 402011
+402012 ~ Hrvatski trg - 402012
+502011 ~ Poljanska - 502011
+501021 ~ Zmajski most / Ljubljana Zmajski most - 501021
+402022 ~ Poliklinika - 402022
+501022 ~ Zmajski most / Ljubljana Zmajski most - 501022
+501031 ~ Krekov trg - 501031
+502014 ~ Ambrožev trg - 502014
+402021 ~ Poliklinika - 402021
+502012 ~ Poljanska - 502012
+602102 ~ Gornji trg / Ljubljana G.trg - 602102
+602101 ~ Gornji trg / Ljubljana G.trg - 602101
+602061 ~ Križanke - 602061
+602062 ~ Križanke - 602062
+701012 ~ Bleiweisova / Ljubljana Tivolska - 701012
+602011 ~ Cankarjev dom - 602011
+701011 ~ Bleiweisova / Ljubljana Tivolska - 701011
+500011 ~ Tavčarjeva - 500011
+300012 ~ Kolodvor - 300012
+600032 ~ Dalmatinova - 600032
+300011 ~ Kolodvor - 300011
+501011 ~ Ilirska - 501011
+301011 ~ Friškovec - 301011
+301012 ~ Friškovec - 301012
+501012 ~ Ilirska - 501012
+202042 ~ Savsko naselje - 202042
+202041 ~ Savsko naselje - 202041
+202012 ~ Viadukt / Ljubljana Viadukt - 202012
+202011 ~ Viadukt / Ljubljana Viadukt - 202011
+202044 ~ Središka / Ljubljana Sav.nas. - 202044
+202043 ~ Središka / Ljubljana Sav.nas. - 202043
+202062 ~ Žale - 202062
+202061 ~ Žale - 202061
+803052 ~ Litostrojska - 803052
+803051 ~ Litostrojska - 803051
+803212 ~ Kovinarska - 803212
+103201 ~ Litostroj - 103201
+803211 ~ Kovinarska - 803211
+101032 ~ Bežigrad - 101032
+101031 ~ Bežigrad - 101031
+201011 ~ Železna - 201011
+100012 ~ Navje - 100012
+100022 ~ Razstavišče - 100022
+100021 ~ Razstavišče - 100021
+504022 ~ Spodnji Rudnik - 504022
+504011 ~ Gornji Rudnik - 504011
+504032 ~ Rudnik I / Ljubljana Rudnik - 504032
+504012 ~ Gornji Rudnik - 504012
+504033 ~ Rudnik I / Ljubljana Rudnik - 504033
+504031 ~ Rudnik - 504031
+504021 ~ Spodnji Rudnik - 504021
+503041 ~ Peruzzijeva - 503041
+503042 ~ Peruzzijeva - 503042
+602112 ~ Privoz - 602112
+503032 ~ Akademija - 503032
+503031 ~ Akademija - 503031
+503012 ~ Strelišče / Ljubljana str. - 503012
+503014 ~ Orlova - 503014
+503022 ~ Rakovnik / Ljubljana Rakovnik - 503022
+503011 ~ Strelišče / Ljubljana str. - 503011
+602111 ~ Privoz - 602111
+503021 ~ Rakovnik / Ljubljana Rakovnik - 503021
+502032 ~ Streliška - 502032
+502021 ~ Roška - 502021
+502031 ~ Streliška - 502031
+502022 ~ Roška - 502022
+402051 ~ Glonarjeva - 402051
+403022 ~ Kodeljevo - 403022
+402061 ~ Gornje Poljane - 402061
+403023 ~ Kodeljevo - 403023
+403042 ~ Štepanja vas - 403042
+402052 ~ Glonarjeva - 402052
+303043 ~ Štepanjsko naselje - 303043
+403041 ~ Štepanja vas - 403041
+402062 ~ Gornje Poljane - 402062
+403052 ~ Emona - 403052
+403051 ~ Emona - 403051
+403021 ~ Kodeljevo - 403021
+303041 ~ Štepanjsko naselje - 303041
+403012 ~ Jana Husa - 403012
+403011 ~ Jana Husa - 403011
+403032 ~ Pod Golovcem - 403032
+403031 ~ Pod Golovcem - 403031
+403043 ~ Štepanja vas - 403043
+803102 ~ Zg. Šiška - 803102
+803162 ~ Bratov Babnik - 803162
+803161 ~ Bratov Babnik - 803161
+804221 ~ Podutik - 804221
+804212 ~ Murkova - 804212
+804191 ~ Pod Kamno Gorico - 804191
+803141 ~ Koseze - 803141
+803131 ~ Bratov Učakar - 803131
+803132 ~ Bratov Učakar - 803132
+803082 ~ Kneza Koclja - 803082
+803081 ~ Kneza Koclja - 803081
+804211 ~ Murkova - 804211
+803152 ~ Draveljska gmajna - 803152
+803151 ~ Draveljska gmajna - 803151
+804201 ~ Omersova - 804201
+803142 ~ Koseze - 803142
+804202 ~ Omersova - 804202
+803101 ~ Zg. Šiška - 803101
+803181 ~ Kamna Gorica - 803181
+803172 ~ Spar - 803172
+803171 ~ Spar - 803171
+802042 ~ Bolnica P. Držaja - 802042
+802031 ~ Na jami - 802031
+802032 ~ Na jami - 802032
+802041 ~ Bolnica P. Držaja - 802041
+802051 ~ Drenikova - 802051
+802052 ~ Drenikova - 802052
+203071 ~ Nove Žale - 203071
+203031 ~ Tomačevska - 203031
+102012 ~ Samova - 102012
+203032 ~ Tomačevska - 203032
+102022 ~ Topniška - 102022
+203211 ~ Kranjčeva - 203211
+102011 ~ Samova - 102011
+202021 ~ Prekmurska - 202021
+202032 ~ Savske stolpnice - 202032
+202022 ~ Prekmurska - 202022
+203081 ~ Tomačevo - 203081
+202031 ~ Savske stolpnice - 202031
+102021 ~ Topniška - 102021
+203072 ~ Nove Žale - 203072
+101061 ~ Bratov Židan - 101061
+101012 ~ Hranilniška - 101012
+101052 ~ Astra - 101052
+101021 ~ Parmova - 101021
+101034 ~ Kržičeva - 101034
+101011 ~ Hranilniška - 101011
+101062 ~ Bratov Židan - 101062
+101051 ~ Astra - 101051
+101022 ~ Parmova - 101022
+104101 ~ Kolodvor Črnuče - 104101
+104151 ~ OŠ Maksa Pečarja - 104151
+103101 ~ Stožice - 103101
+104102 ~ Kolodvor Črnuče - 104102
+104161 ~ Črnuče - 104161
+103031 ~ AMZS / Ljubljana AMZS - 103031
+104054 ~ Sava - 104054
+103131 ~ Ruski car / Ljubljana Ruski car - 103131
+104051 ~ Sava - 104051
+103071 ~ Smelt - 103071
+102042 ~ Stadion / Ljubljana stad. - 102042
+104112 ~ Rogovilc / Ljubljana Črnuče - 104112
+103072 ~ Smelt - 103072
+102041 ~ Stadion / Ljubljana stad. - 102041
+104113 ~ Primožičeva - 104113
+104031 ~ Ježica - 104031
+102082 ~ Mercator - 102082
+104033 ~ Ježica - 104033
+103132 ~ Ruski car / Ljubljana Ruski car - 103132
+104052 ~ Sava - 104052
+103032 ~ AMZS / Ljubljana AMZS - 103032
+102081 ~ Mercator - 102081
+104152 ~ OŠ Maksa Pečarja - 104152
+104032 ~ Ježica - 104032
+104111 ~ Rogovilc / Ljubljana Črnuče - 104111
+103102 ~ Stožice - 103102
+104141 ~ Pot v Hrastovec - 104141
+104132 ~ Pot v Smrečje - 104132
+104142 ~ Pot v Hrastovec - 104142
+104131 ~ Pot v Smrečje - 104131
+104121 ~ Polanškova - 104121
+104122 ~ Polanškova - 104122
+703082 ~ Glince - 703082
+703071 ~ Stan in dom - 703071
+703112 ~ Dolgi most / Ljubljana Dol.most Gruda - 703112
+703102 ~ Bonifacija - 703102
+704012 ~ Dolgi most obračališče izstop - 704012
+703072 ~ Stan in dom / Ljubljana Ilirija - 703072
+703091 ~ Vič / Ljubljana Vič - 703091
+703111 ~ Dolgi most / Ljubljana Dol.most Gruda - 703111
+703101 ~ Bonifacija - 703101
+703081 ~ Glince - 703081
+703092 ~ Vič / Ljubljana Vič - 703092
+704011 ~ Dolgi most obračališče - 704011
+803112 ~ Čebelarska - 803112
+803102 ~ Tržnica Koseze - 803102
+803122 ~ Plešičeva - 803122
+804171 ~ Andreja Bitenca - 804171
+803101 ~ Tržnica Koseze - 803101
+804172 ~ Andreja Bitenca - 804172
+804181 ~ Pržan - 804181
+803121 ~ Plešičeva - 803121
+803111 ~ Čebelarska - 803111
+804161 ~ IMP - 804161
+804162 ~ IMP - 804162
+803061 ~ Ljubljanske brigade - 803061
+803072 ~ Tehnounion - 803072
+803071 ~ Tehnounion - 803071
+815111 ~ Kajakaška - 815111
+815011 ~ Vikrče - 815011
+815012 ~ Vikrče - 815012
+815112 ~ Kajakaška - 815112
+204081 ~ Zadobrova - 204081
+204061 ~ Hrastje / Ljubljana Hrastje - 204061
+304081 Polje - kolodvor - 304081
+304071 ~ Polje - 304071
+204083 ~ Zadobrova - 204083
+304073 ~ Polje - 304073
+204082 ~ Zadobrova - 204082
+304072 ~ Polje - 304072
+304091 ~ Cesta na Vevče - 304091
+204102 ~ Novo Polje - 204102
+304082 ~ Polje - kolodvor - 304082
+204071 ~ Sneberje / Ljubljana Sneberje - 204071
+204101 ~ Novo Polje - 204101
+304092 ~ Cesta na Vevče - 304092
+204062 ~ Hrastje / Ljubljana Hrastje - 204062
+304074 ~ Polje - 304074
+304101 ~ Vevče - 304101
+204072 ~ Sneberje / Ljubljana Sneberje - 204072
+204181 ~ Zadružni dom - 204181
+204191 ~ Zeleni gaj - 204191
+304132 ~ Silos - 304132
+304111 ~ Petrol - 304111
+304062 ~ Studenec - 304062
+204201 ~ Saturnus - 204201
+204182 ~ Zadružni dom - 204182
+204192 ~ Zeleni gaj - 204192
+304112 ~ Petrol - 304112
+204211 ~ Zalog - 204211
+304131 ~ Silos - 304131
+304061 ~ Studenec - 304061
+703122 ~ Živalski vrt - ZOO - 703122
+102072 ~ Vodovodna - 102072
+103012 ~ Toplarna - 103012
+102071 ~ Vodovodna - 102071
+103011 ~ Toplarna - 103011
+802062 ~ Tiki - 802062
+102062 ~ Mostovna - 102062
+102052 ~ Podmilščakova - 102052
+102051 ~ Podmilščakova - 102051
+102061 ~ Mostovna - 102061
+802061 ~ Tiki - 802061
+103051 ~ Tovarna Lek - 103051
+103112 ~ 7. septembra - 103112
+103122 ~ Čerinova - 103122
+103061 ~ Pohorskega bataljona - 103061
+103022 ~ Brinje - 103022
+103091 ~ Gorjančeva - 103091
+103062 ~ Pohorskega bataljona - 103062
+103021 ~ Brinje - 103021
+104022 ~ Kališnikov trg - 104022
+104021 ~ Kališnikov trg - 104021
+104011 ~ Savlje - 104011
+103121 ~ Čerinova - 103121
+103092 ~ Gorjančeva - 103092
+103111 ~ 7. septembra - 103111
+102091 ~ Kardeljeva ploščad - 102091
+102031 ~ Gasilska brigada - 102031
+102092 ~ Kardeljeva ploščad - 102092
+103081 ~ Nove Stožice P+R - 103081
+103161 ~ Maroltova - 103161
+103041 ~ Puhova - 103041
+103042 ~ Puhova - 103042
+103162 ~ Maroltova - 103162
+103182 ~ Štajerska - 103182
+103192 ~ Božičeva - 103192
+103191 ~ Božičeva - 103191
+303062 ~ Archinetova - 303062
+304012 ~ Preglov trg - 304012
+304011 ~ Preglov trg - 304011
+303072 ~ Brodarjev trg - 303072
+303061 ~ Archinetova - 303061
+304031 ~ Rusjanov trg - 304031
+303051 ~ Pot na Fužine - 303051
+304051 ~ Fužine P+R - 304051
+304042 ~ Chengdujska - 304042
+304032 ~ Rusjanov trg - 304032
+304021 ~ Osenjakova - 304021
+304022 ~ Osenjakova - 304022
+303052 ~ Pot na Fužine - 303052
+304041 ~ Chengdujska - 304041
+303071 ~ Brodarjev trg - 303071
+804062 ~ Stanežiče - 804062
+804341 ~ Oval - 804341
+804061 ~ Stanežiče - 804061
+804361 ~ Stanežiče - 804361
+804342 ~ Oval - 804342
+804352 ~ Dvor - 804352
+804351 ~ Dvor - 804351
+804072 ~ Medno - 804072
+804071 ~ Medno - 804071
+603082 ~ Veliki štradon - 603082
+602121 ~ Trnovo - 602121
+603061 ~ Murgle - 603061
+603081 ~ Veliki štradon - 603081
+603062 ~ Murgle - 603062
+603072 ~ Pot na Rakovo jelšo - 603072
+602072 ~ Mirje - 602072
+602092 ~ Ziherlova - 602092
+602071 ~ Mirje - 602071
+602093 ~ Ziherlova - 602093
+603071 ~ Pot na Rakovo jelšo - 603071
+714011 ~ Kozarje G.D. - 714011
+714022 ~ Gmajna - 714022
+714021 ~ Gmajna - 714021
+704052 ~ Dolgi most Rotar / Ljubljana Dol.most Rotar - 704052
+704062 ~ Na Gmajnici / Ljubljana Na Gmajnici - 704062
+704051 ~ Dolgi most Rotar / Ljubljana Dol.most Rotar - 704051
+704101 ~ Kozarje - 704101
+714012 ~ Kozarje G.D. - 714012
+704102 ~ Kozarje - 704102
+704061 ~ Na Gmajnici / Ljubljana Na Gmajnici - 704061
+Letališka - 204041
+Rog - 204031
+204011 ~ Leskoškova - 204011
+203182 ~ Bratislavska - 203182
+203191 ~ Yulon - 203191
+203192 ~ Yulon - 203192
+GZL - 204021
+Rog - 204032
+203181 ~ Bratislavska - 203181
+GZL - 204022
+204012 ~ Leskoškova - 204012
+Letališka - 204042
+Letališka - obračališče - 204051
+104081 ~ Obrtna cona - 104081
+104091 ~ Cesta na Brod - 104091
+104071 ~ Šlandrova - 104071
+104072 ~ Šlandrova - 104072
+104082 ~ Obrtna cona - 104082
+104092 ~ Cesta na Brod - 104092
+204121 ~ Brnčičeva - 204121
+104062 ~ Elma - 104062
+204111 ~ Slovenijales - 204111
+204112 ~ Slovenijales - 204112
+104061 ~ Elma - 104061
+104182 ~ Ježa - 104182
+Dobrava/Črnučah - Dobrava/Črnučah
+204132 ~ Nadgorica / Ljubljana Nadgorica - 204132
+Dobrava/Črnučah - Dobrava/Črnučah
+104171 ~ Zasavska - 104171
+104172 ~ Zasavska - 104172
+104181 ~ Ježa - 104181
+204131 ~ Nadgorica / Ljubljana Nadgorica - 204131
+204152 ~ Šentjakob / Ljubljana Šentjakob - 204152
+204142 ~ Belinka / Ljubljana Belinka - 204142
+204141 ~ Belinka / Ljubljana Belinka - 204141
+204151 ~ Šentjakob / Ljubljana Šentjakob - 204151
+Baby center - Baby
+Aleja mladih - Aleja
+203251 ~ BTC - Atlantis / Atlantis - 203251
+203111 ~ BTC - uprava / Stolpnica - 203111
+Kristalna palača - Kristalna
+203131 ~ BTC - Kolosej / Kolosej - 203131
+Emporium - Emporium
+203132 ~ BTC - Kolosej - 203132
+Tržnica - Tržnica
+203112 ~ BTC - uprava - 203112
+203122 ~ BTC - tržnica - 203122
+203121 ~ BTC - tržnica - 203121
+404012 ~ Hrušica - 404012
+404032 ~ Dobrunje - 404032
+404021 ~ Cesta v Bizovik - 404021
+404022 ~ Cesta v Bizovik - 404022
+403062 ~ Rast - 403062
+404011 ~ Hrušica - 404011
+404031 ~ Dobrunje - 404031
+403061 ~ Rast - 403061
+404061 ~ Zadvor - 404061
+404042 ~ Pošta Dobrunje - 404042
+404052 ~ KPL - 404052
+304102 ~ Lj. Vevče papirnica - 304102
+304103 ~ Lj. Vevče papirnica - 304103
+404041 ~ Pošta Dobrunje - 404041
+404051 ~ KPL - 404051
+404062 ~ Zadvor - 404062
+404072 ~ Cesta v Zavoglje - 404072
+404071 ~ Cesta v Zavoglje - 404071
+404093 ~ Sostro - 404093
+404082 ~ Križišče Sostro - 404082
+404091 ~ Sostro - 404091
+404081 ~ Križišče Sostro - 404081
+404092 ~ Sostro - 404092
+404131 ~ Ljubljana Dobrunje - 404131
+404152 ~ Ljubljana Zadvor - 404152
+404151 ~ Ljubljana Zadvor - 404151
+404132 ~ Ljubljana Dobrunje - 404132
+404161 ~ OŠ Sostro - 404161
+404162 ~ OŠ Sostro - 404162
+404141 ~ Dobrunje pod Urhom - 404141
+404142 ~ Dobrunje pod Urhom - 404142
+404123 ~ Bizovik - 404123
+404111 ~ Hruševska - 404111
+404112 ~ Hruševska - 404112
+404121 ~ Bizovik - 404121
+403071 ~ Bilečanska - 403071
+404101 ~ Krožna pot - 404101
+404102 ~ Krožna pot - 404102
+503052 ~ Mihov štradon - 503052
+603093 ~ Galjevica - 603093
+504061 ~ NS Rudnik - 504061
+504041 ~ Jurčkova - 504041
+504052 ~ NS Rudnik - 504052
+504042 ~ Jurčkova - 504042
+503051 ~ Mihov štradon - 503051
+504051 ~ NS Rudnik - 504051
+603092 ~ Livada - 603092
+603091 ~ Livada - 603091
+603094 ~ Galjevica - 603094
+603122 ~ Ižanska - 603122
+603121 ~ Ižanska - 603121
+203141 ~ BTC - Emporium - 203141
+203142 ~ BTC - Emporium - 203142
+604023 ~ Barje - 604023
+604012 ~ Iški most - 604012
+603101 ~ Ilovica - 603101
+604011 ~ Iški most - 604011
+604051 ~ Pri Maranzu - 604051
+604022 ~ Barje - 604022
+603102 ~ Ilovica - 603102
+604052 ~ Pri Maranzu - 604052
+604041 ~ Havptmance - 604041
+604042 ~ Havptmance - 604042
+603111 ~ Lahova pot - 603111
+603112 ~ Lahova pot - 603112
+614042 ~ Capuder - 614042
+614011 ~ Plečnikova cerkev - 614011
+614052 ~ Zidarjevec - 614052
+614031 ~ Dornig - 614031
+614051 ~ Zidarjevec - 614051
+614012 ~ Plečnikova cerkev - 614012
+614071 ~ Lipe - 614071
+614081 ~ Kozler - 614081
+614041 ~ Capuder - 614041
+614091 ~ Snoj - 614091
+614092 ~ Snoj - 614092
+614061 ~ Rutar - 614061
+614022 ~ Brglezov štradon - 614022
+614032 ~ Dornig - 614032
+614021 ~ Brglezov štradon - 614021
+614072 ~ Lipe - 614072
+614082 ~ Kozler - 614082
+614062 ~ Rutar - 614062
+702011 ~ Pod Rožnikom - 702011
+702021 ~ Študentsko naselje - 702021
+702022 ~ Študentsko naselje - 702022
+702012 ~ Pod Rožnikom - 702012
+703032 ~ Jamnikarjeva - 703032
+704024 ~ Brdo - 704024
+703061 ~ Preval - 703061
+703031 ~ Jamnikarjeva - 703031
+703051 ~ Podmornica - 703051
+703012 ~ Rožna dolina - 703012
+703062 ~ Preval - 703062
+703042 ~ Viško polje - 703042
+703041 ~ Viško polje - 703041
+703022 ~ Cesta XV - 703022
+704022 ~ Brdo - 704022
+703052 ~ Podmornica - 703052
+703011 ~ Rožna dolina - 703011
+704021 ~ Brdo - 704021
+703021 ~ Cesta XV - 703021
+704041 ~ Bokalce - 704041
+704031 ~ Vrhovci - 704031
+405021 ~ Besnica/Lj. - 405021
+405041 ~ Blaževo - 405041
+405031 ~ Besnica/Lj. Š. - 405031
+405042 ~ Blaževo - 405042
+405032 ~ Besnica/Lj. Š. - 405032
+405012 ~ Javor/K. - 405012
+405011 ~Javor/K. - 405011
+405022 ~ Besnica/Lj. - 405022
+405052 ~ Besnica ambulanta - 405052
+405072 ~ Zg. Besnica - 405072
+405062 ~ Besnica kamnolom - 405062
+405051 ~ Besnica ambulanta - 405051
+405071 ~ Zg. Besnica - 405071
+406022 ~ Trebeljevo - 406022
+406012 ~ Šemnikar - 406012
+406031 ~ Prežganje Š. K. - 406031
+406011 ~ Šemnikar - 406011
+406032 ~ Prežganje Š. K. - 406032
+406021 ~ Trebeljevo - 406021
+406051 ~ Smrekarjevo - 406051
+406042 ~ Prežganje Š. - 406042
+406041 ~ Prežganje Š. - 406041
+406052 ~ Smrekarjevo - 406052
+406061 ~ Volavlje - 406061
+406062 ~ Volavlje - 406062
+406081 ~ Tuji Grm - 406081
+406072 ~ Lanišče - 406072
+406071 ~ Lanišče - 406071
+415091 ~ Pri Dolencu - 415091
+415092 ~ Pri Dolencu - 415092
+415021 ~ Podlipoglav - 415021
+415022 ~ Podlipoglav - 415022
+425011 ~ Javor pri Sostrem K. - 425011
+415011 ~ Sadinja vas - 415011
+415012 ~ Sadinja vas - 415012
+425012 ~ Javor pri Sostrem K. - 425012
+415031 ~ Veliki Lipoglav - 415031
+415042 ~ Selo pri Pancah K. - 415042
+415032 ~ Veliki Lipoglav - 415032
+415041 ~ Selo pri Pancah K. - 415041
+415081 ~ Primožev ovinek - 415081
+415071 ~ Pri Dogonivar - 415071
+415082 ~ Primožev ovinek - 415082
+415061 ~ Mali Lipoglav - 415061
+415072 ~ Pri Dogonivar - 415072
+415051 ~ Pance K. - 415051
+415052 ~ Pance K. - 415052
+625022 ~ Ig - 625022
+605082 ~ Ig Petrol - 605082
+625021 ~ Ig - 625021
+605011 ~ Ig AP - 605011
+605012 ~ Ig AP - 605012
+605081 ~ Ig Petrol - 605081
+626011 ~ Iška vas obr. - 626011
+625041 ~ Kot - 625041
+625031 ~ Staje - 625031
+704081 ~ Pri Poku / Brezovica pri Ljubljani - 704081
+704072 ~ Radna - 704072
+Brezovica pri Ljubljani - Brezovica
+Brezovica pri Ljubljani - Brezovica
+Lukovica pri Brezovici - Lukovica
+Lukovica pri Brezovici - Lukovica
+Plešivica/Logu spomenik - Plešivica/Logu
+Plešivica/Logu spomenik - Plešivica/Logu
+Plešivica/Logu grad - Plešivica/Logu
+745021 ~ Erbežnik / Vnanje Gorice Japelj - 745021
+744022 ~ Japelj / Vnanje Gorice rampe - 744022
+Notranje Gorice Š - Notranje
+744021 ~ Japelj / Vnanje Gorice rampe - 744021
+745032 ~ Mostiček / Notranje Gorice mostiček - 745032
+745031 ~ Mostiček / Notranje Gorice mostiček - 745031
+745022 ~ Erbežnik / Vnanje Gorice Japelj - 745022
+745041 ~ Notranje Gorice - 745041
+744012 ~ Šolska / Brezovica pri Ljubljani Š - 744012
+744011 ~ Šolska / Brezovica pri Ljubljani Š - 744011
+745061 ~ Jezero - 745061
+745052 ~ Podpeč - 745052
+745051 ~ Podpeč / Podpeč/Lj. - 745051
+Kamnik pod Krimom - Kamnik
+Preserje/Krimom - Preserje/Krimom
+Kamnik pod Krimom K - Kamnik
+Kamnik pod Krimom K - Kamnik
+Podpeč/Lj.Jereb - Podpeč/Lj.Jereb
+Kamnik pod Krimom K - Kamnik
+Kamnik pod Krimom - Kamnik
+Podpeč/Lj.Jereb - Podpeč/Lj.Jereb
+Prevalje pod Krimom - Prevalje
+Goričica pod Krimom - Goričica
+Goričica pod Krimom - Goričica
+Prevalje pod Krimom - Prevalje
+Pako - Pako
+Breg pri Borovnici - Breg
+Breg pri Borovnici - Breg
+Pako - Pako
+Borovnica most - Borovnica
+Borovnica most - Borovnica
+Borovnica Merc. - Borovnica
+Borovnica K - Borovnica
+Borovnica K - Borovnica
+Vrhnika Jazon - Vrhnika
+Sinja Gorica - Sinja
+Vrhnika - Vrhnika
+Lesno Brdo - Lesno
+Dragomer - Dragomer
+Lesno Brdo - Lesno
+Sinja Gorica Avt. - Sinja
+Dragomer - Dragomer
+Log pri Brez.vas - Log
+Log pri Brez.Mole - Log
+Drenov Grič - Drenov
+Log pri Brez.Mole - Log
+Sinja Gorica Avt. - Sinja
+Vrhnika - Vrhnika
+Log pri Brez.vas - Log
+Vrhnika vrt. - Vrhnika
+Vrhnika vrt. - Vrhnika
+Drenov Grič - Drenov
+Sinja Gorica - Sinja
+Vrhnika Voljčeva - Vrhnika
+Vrhnika samop. - Vrhnika
+Vrhnika samop. - Vrhnika
+Blekova vas - Blekova
+Zaplana - Zaplana
+Logatec Krpan - Logatec
+Zaplana - Zaplana
+Logatec Krpan - Logatec
+Vrhnika hrib - Vrhnika
+Blekova vas - Blekova
+Vrhnika hrib - Vrhnika
+Logatec - Logatec
+Kalce/Logatcu - Kalce/Logatcu
+Kalce/Logatcu - Kalce/Logatcu
+Logatec - Logatec
+Grčarevec - Grčarevec
+Grčarevec - Grčarevec
+Bevke - Bevke
+Bl.Brezovica - Bl.Brezovica
+Bl.Brezovica - Bl.Brezovica
+Bevke - Bevke
+Bevke - Bevke
+Bevke - Bevke
+St.Vrhnika K - St.Vrhnika
+Ligojna K - Ligojna
+St.Vrhnika K - St.Vrhnika
+Ligojna K - Ligojna
+Podlipa Stope - Podlipa
+Podlipa Stope - Podlipa
+Podlipa Podlogar - Podlipa
+Podlipa Podlogar - Podlipa
+Podlipa hrast - Podlipa
+Podlipa hrast - Podlipa
+Podlipa Vičič - Podlipa
+Podlipa pri tran. - Podlipa
+Podlipa - Podlipa
+Podlipa Vičič - Podlipa
+Podlipa - Podlipa
+Podlipa pri tran. - Podlipa
+Podlipa Županov z. - Podlipa
+Podlipa Kovtrov z. - Podlipa
+Podlipa Zukancov z. - Podlipa
+Podlipa Zukancov z. - Podlipa
+Podlipa Kovtrov z. - Podlipa
+Podlipa Županov z. - Podlipa
+Smrečje/Vrhnika - Smrečje/Vrhnika
+Smrečje/Vrh.pri Kapelici - Smrečje/Vrh.pri
+Smrečje/Vrhniko Samija - Smrečje/Vrhniko
+Smrečje/Vrh.pri Kapelici - Smrečje/Vrh.pri
+Smrečje/Vrhniko pri Mihu - Smrečje/Vrhniko
+Smrečje/Vrhniko pri Mihu - Smrečje/Vrhniko
+Smrečje/Vrhniko Samija - Smrečje/Vrhniko
+715022 ~ Komanija - 715022
+715031 ~ Podsmreka G.D. - 715031
+715021 ~ Komanija - 715021
+715041 ~ Podsmreka/Gorjancu - 715041
+725041 ~ Podsmreka Rotar - 725041
+715042 ~ Podsmreka/Gorjancu - 715042
+715012 ~ Draževnik - 715012
+715032 ~ Podsmreka G.D. - 715032
+715011 ~ Draževnik - 715011
+715042 ~ Podsmreka Rotar - 715042
+715042 ~ Razori K. - 715042
+715041 ~ Razori K. - 715041
+715041 ~ Razori K. - 715041
+714031 ~ Razori Rogovilc - 714031
+714032 ~ Razori Rogovilc - 714032
+725011 ~ Dobrova - 725011
+725012 ~ Dobrova - 725012
+725012 ~ Dobrova - 725012
+725011 ~ Dobrova - 725011
+715091 ~ Dobrova Skodlar - 715091
+715082 ~ Dobrova Maček - 715082
+715092 ~ Dobrova Skodlar - 715092
+715062 ~ Dobrova graben - 715062
+715081 ~ Dobrova Maček - 715081
+715072 ~ Dobrova vodomet - 715072
+715061 ~ Dobrova graben - 715061
+715071 ~ Dobrova vodomet - 715071
+715112 ~ Brezje pri Dobrovi - 715112
+715111 ~ Brezje pri Dobrovi - 715111
+715101 ~ Brezje/Dobrovi And. - 715101
+715102 ~ Brezje/Dobrovi And. - 715102
+725062 ~ Žirovnik - 725062
+725041 ~ Gabrje/D. Brvičar - 725041
+725042 ~ Gabrje/D. Brvičar - 725042
+725031 ~ Gabrje pri Dobrovi - 725031
+725061 ~ Žirovnik - 725061
+725052 ~ Hruševo - 725052
+725032 ~ Gabrje pri Dobrovi - 725032
+725021 ~ Šujica - 725021
+725051 ~ Hruševo - 725051
+725021 ~ Šujica - 725021
+725071 ~ Hrastenice - 725071
+725101 ~ Dvor pri Polh.G. - 725101
+725072 ~ Hrastenice - 725072
+725082 ~ Log pri Polh.G. - 725082
+725102 ~ Dvor pri Polh.G. - 725102
+725081 ~ Log pri Polh.G. - 725081
+725111 ~ D.vas pri Polh.G. - 725111
+725112 ~ D.vas pri Polh.G. - 725112
+725091 ~ Belica - 725091
+725092 ~ Belica - 725092
+725122 ~ Podreber/Polh.G. - 725122
+725121 ~ Podreber/Polh.G. - 725121
+726011 / 726012 ~ Polhov Gradec - 726011
+725131 ~ Sr.vas pri Polh.G. - 725131
+725132 ~ Sr.vas pri Polh.G. - 725132
+716051 ~ Šentjošt - 716051
+716042 ~ Vrzdenec - 716042
+716041 ~ Vrzdenec - 716041
+716011 ~ Horjul - 716011
+716022 ~ Ljubgojna - 716022
+716021 ~ Ljubgojna - 716021
+716012 ~ Horjul - 716012
+716042 ~ Žažar - 716042
+716041 ~ Žažar - 716041
+715121 ~ Podolnica - 715121
+715131 ~ Zaklanec/Horjulu - 715131
+715122 ~ Podolnica - 715122
+715132 ~ Zaklanec/Horjulu - 715132
+805041 ~ Medvode naselje - 805041
+805012 ~ Medvode a.p. / Medvode - 805012
+805031 ~ Novo naselje - 805031
+805032 ~ Novo naselje - 805032
+805021 ~ Medvode - 805021
+805011 ~ Medvode a.p. / Medvode - 805011
+815102 ~ Gostilna Kovač - 815102
+815101 ~ Gostilna Kovač - 815101
+815031 ~ Zg. Pirniče - 815031
+815041 ~ Zg. Pirniče Mihovec - 815041
+815032 ~ Zg. Pirniče - 815032
+815022 ~ Sp. Pirniče - 815022
+815021 ~ Sp. Pirniče - 815021
+Na Pili - Na
+Podlesec/Žireh - Podlesec/Žireh
+Smrečje/Vrhniko vrh - Smrečje/Vrhniko
+Smrečje/Vrhniko vrh - Smrečje/Vrhniko
+Orel/Žireh - Orel/Žireh
+Podlesec/Žireh - Podlesec/Žireh
+Na Pili - Na
+Orel/Žireh - Orel/Žireh
+825012 ~ Povodje - 825012
+825011 ~ Povodje - 825011
+825022 ~ Skaručna - 825022
+825021 ~ Skaručna - 825021
+825041 ~ Repnje Benk - 825041
+825031 / 825032 ~ Polje obračališče - 825031
+825042 ~ Repnje Benk - 825042
+825062 ~ Repnje kapelica - 825062
+825051 ~ Repnje samostan - 825051
+825061 ~ Repnje kapelica - 825061
+825052 ~ Repnje samostan - 825052
+825072 ~ Dobruša lipa - 825072
+825071 ~ Dobruša lipa - 825071
+825111 ~ Zapoge obračališče - 825111
+826011 ~ Vodice / Vodice/Lj. - 826011
+826012 ~ Vodice / Vodice/Lj. - 826012
+826021 ~ Bukovica Plevevc - 826021
+826031 ~ Bukovica Anzel - 826031
+826032 ~ Bukovica Anzel - 826032
+826022 ~ Bukovica Plevevc - 826022
+826042 ~ Utik - 826042
+826051 ~ Selo pri Vodicah - 826051
+826041 ~ Utik - 826041
+826052 ~ Selo pri Vodicah - 826052
+626062 ~ Vesca - 626062
+826102 ~ Selo Mali Dunaj - 826102
+626061 ~ Vesca - 626061
+826101 ~ Selo Mali Dunaj - 826101
+626081 ~ Vojsko - 626081
+626082 ~ Vojsko - 626082
+Trzin ind.cona - Trzin
+Trzin ind.cona - Trzin
+Trzin GD - Trzin
+Trzin Mlake - Trzin
+Trzin Mlake - Trzin
+Trzin GD - Trzin
+Trzin vas - Trzin
+Loka pri Mengšu - Loka
+Trzin vas - Trzin
+Loka pri Mengšu - Loka
+Mengeš Lovec - Mengeš
+Mengeš Petrol - Mengeš
+Mengeš Petrol - Mengeš
+Mengeš Pavovec - Mengeš
+Mengeš Pavovec - Mengeš
+Mengeš Lovec - Mengeš
+Topole/Mengšu - Topole/Mengšu
+Topole/Mengšu - Topole/Mengšu
+Moste/Komendi - Moste/Komendi
+Moste/Komendi - Moste/Komendi
+Komenda Š - Komenda
+Komenda Š - Komenda
+Komenda vas - Komenda
+Komenda vas - Komenda
+Lahovče - Lahovče
+Vopovlje - Vopovlje
+Nasovče - Nasovče
+Lahovče - Lahovče
+Spodnji Brnik - Spodnji
+Nasovče - Nasovče
+Vopovlje - Vopovlje
+Spodnji Brnik - Spodnji
+Letališče Brnik - Letališče
+204161 ~ Reaktor / Ljubljana Brinje - 204161
+204162 ~ Reaktor / Ljubljana Brinje - 204162
+204171 ~ Beričevo / Ljubljana Beričevo - 204171
+504081 ~ Lavrica pri Malči / Lavrica pri Malči - 504081
+504072 ~ Pod hribom / Ljubljana pod Hribom - 504072
+504082 ~ Lavrica pri Malči / Lavrica pri Malči - 504082
+504071 ~ Pod hribom / Ljubljana pod Hribom - 504071
+504101 ~ Škofljica Petkovšek / Škofljica Petkovšek - 504101
+504102 ~ Škofljica Petkovšek / Škofljica Petkovšek - 504102
+504091 ~ Lavrica / Lavrica - 504091
+504092 ~ Lavrica / Lavrica - 504092
+504112 ~ Škofljica žaga / Škofljica žaga - 504112
+504111 ~ Škofljica žaga / Škofljica žaga - 504111
+515011 ~ Škofljica špica / Škofljica - 515011
+515013 ~ Škofljica obračališče - 515013
+515012 ~ Škofljica špica - 515012
+Pijava Gorica - Pijava
+Glinek/Škofljici - Glinek/Škofljici
+Pijava Gorica - Pijava
+Pijava Gorica - Pijava
+Glinek/Škofljici - Glinek/Škofljici
+Želimlje Nučič - Želimlje
+Želimlje Nučič - Želimlje
+Želimlje Rogovilec - Želimlje
+Želimlje Rogovilec - Želimlje
+Želimlje - Želimlje
+Vrh nad Želimljami - Vrh
+Gradišče nad Pijavo G. - Gradišče
+505011 ~ Škofljica Javornik - 505011
+505012 ~ Škofljica Javornik - 505012
+505022 ~ Reber pri Škofljici - 505022
+505021 ~ Reber pri Škofljici - 505021
+505031 ~ Špilar - 505031
+505032 ~ Špilar - 505032
+505042 ~ Mali Vrh - 505042
+505041 ~ Mali Vrh - 505041
+505052 ~ Razdrto - 505052
+505051 ~ Razdrto - 505051
+505062 ~ Šmarje - 505062
+505061 ~ Šmarje - 505061
+505082 ~ Cikava - 505082
+505081 ~ Cikava - 505081
+505072 ~ Sap - 505072
+505071 ~ Sap - 505071
+505111 ~ Pod gozdom - 505111
+505102 ~ Stara pošta - 505102
+505112 ~ Pod gozdom - 505112
+505101 ~ Stara pošta - 505101
+505092 ~ Brvace / Brvace - 505092
+505091 ~ Brvace / Brvace - 505091
+505152 ~ Ljubljanska - 505152
+505132 ~ Adamičev spomenik - 505132
+505162 ~ OŠ Brinje - 505162
+50507x Kongo / 506012 ~ Grosuplje Motel / Grosuplje Motel - 50507x
+506011 ~ Grosuplje Motel / Grosuplje Motel - 506011
+505122 ~ Vodičar - 505122
+536022 ~ Krpan - 536022
+556011 ~ Grosuplje SM / Grosuplje SM - 556011
+536012 ~ Mrzle njive - 536012
+505141 ~ Grosuplje - 505141
+556012 ~ Grosuplje SM / Grosuplje SM - 556012
+V.Mlačevo - V.Mlačevo
+V.Mlačevo - V.Mlačevo
+M.Mlačevo - M.Mlačevo
+M.Mlačevo - M.Mlačevo
+Predole K - Predole
+V.Račna - V.Račna
+V.Račna - V.Račna
+Predole K - Predole
+M.Račna - M.Račna
+Čušperk - Čušperk
+M.Račna - M.Račna
+Čušperk - Čušperk
+M.Ilova Gora - M.Ilova
+M.Ilova Gora - M.Ilova
+Višnja Gora - Višnja
+Višnja Gora - Višnja
+St.trg/Višnji G. - St.trg/Višnji
+St.trg/Višnji G. - St.trg/Višnji
+Podsmreka pri Višnji Gori - Podsmreka
+Polževo K - Polževo
+Podsmreka pri Višnji Gori - Podsmreka
+Polževo K - Polževo
+M.Hudo - M.Hudo
+M.Hudo - M.Hudo
+Ivančna Gorica - Ivančna
+Ivančna Gorica ŠC - Ivančna
+Stična K - Stična
+Stična KZ - Stična
+Stična KZ - Stična
+Griže/Stični - Griže/Stični
+Vir pri Stični - Vir
+Griže/Stični - Griže/Stični
+Vir pri Stični - Vir
+Glogovica K - Glogovica
+Glogovica K - Glogovica
+Šentvid pri Stični - Šentvid
+Šentvid pri Stični K - Šentvid
+Šentvid pri Stični ŽP - Šentvid
+Šentvid pri Stični K - Šentvid
+Šentvid pri Stični ŽP - Šentvid
+Dob/Šentvidu - Dob/Šentvidu
+Boga vas - Boga
+Boga vas - Boga
+Škoflje/Šentvidu - Škoflje/Šentvidu
+Škoflje/Šentvidu - Škoflje/Šentvidu
+Radohova vas/Šentvidu - Radohova
+Radohova vas/Šentvidu - Radohova
+Grm - Grm
+Selo pri Radohovi vasi - Selo
+Grm - Grm
+Selo pri Radohovi vasi - Selo
+Praproče pri Temenici - Praproče
+Praproče pri Temenici - Praproče
+Temenica - Temenica
+Studenec/Iv.Gorici - Studenec/Iv.Gorici
+Videm/Dobrepolju - Videm/Dobrepolju
+Zdenska vas - Zdenska
+Predstruge - Predstruge
+Zdenska vas - Zdenska
+Cesta/Dobrepolju - Cesta/Dobrepolju
+Cesta/Dobrepolju - Cesta/Dobrepolju
+Ponikve/Dobrepolju - Ponikve/Dobrepolju
+Ponikve/Dobrepolju Inv.d. - Ponikve/Dobrepolju
+Rašica - Rašica
+Turjak - Turjak
+M.Ločnik/Turjaku - M.Ločnik/Turjaku
+Podpeč/Lj. - Podpeč/Lj.
+502024 ~ Roška - 502024
+603152 ~ Golouhova - 603152
+504121 ~ Bobrova - 504121
+603151 ~ Golouhova - 603151
+826092 ~ Vodice OŠ - 826092
+826091 ~ Vodice OŠ - 826091
+826111 ~ Koseze - 826111
+826132 ~ Šinkov Turn - 826132
+826131 ~ Šinkov Turn - 826131
+826142 ~ Šinkov Turn hrib - 826142
+826141 ~ Šinkov Turn hrib - 826141
+826121 ~ Koseze Stare - 826121
+826122 ~ Koseze Stare - 826122
+826112 ~ Koseze - 826112
+505192 ~ Dom obrtnikov - 505192
+505182 ~ Dom starejših - 505182
+625052 ~ Iška vas - 625052
+625042 ~ Kot - 625042
+625032 ~ Staje - 625032
+625051 ~ Iška vas - 625051
+625061 ~ Iška vas šola - 625061
+625062 ~ Iška vas šola - 625062
+104194 ~ Šmartno pod Šm. goro - 104194
+104193 ~ Šmartno pod Šm. goro - 104193
+745101 ~ OŠ Jezero - 745101
+603064 ~ Murgle - 603064
+603131 ~ Hladnikova - 603131
+603132 ~ Hladnikova - 603132
+604061 ~ Ižica - 604061
+504122 ~ Bobrova - 504122
+604062 ~ Ižica - 604062
+835012 ~ Verje - 835012
+835011 ~ Verje - 835011
+815042 ~ Zg. Pirniče Mihovec - 815042
+805023 ~ Medvode - 805023
+203231 ~ Na Žalah - 203231
+203231 ~ Na Žalah - 203231
+805022 ~ Medvode - 805022
+603141 ~ Tbilisijska - 603141
+603142 ~ Tbilisijska - 603142
+300013 ~ AP Ljubljana (peron 2, 3, 4) - 300013
+703182 ~ Večna pot - 703182
+Smrjene - Smrjene
+Predstruge - Predstruge
+804132 ~ Martinova - 804132
+203161 ~ Nove Jarše - Šmartinska - 203161
+500012 ~ Turist - 500012
+405061 ~ Besnica kamnolom - 405061
+Pijava Gorica - Pijava
+403072 ~ Bilečanska - 403072
+803053 ~ Litostrojska - 803053
+602012 ~ Cankarjev dom - 602012
+103212 ~ Baragova - 103212
+103211 ~ Baragova - 103211
+103203 ~ Litostroj - 103203
+103202 ~ Litostroj - 103202
+103232 ~ I.C. Šiška - 103232
+103231 ~ I.C. Šiška - 103231
+803221 ~ Draga - 803221
+803222 ~ Draga - 803222
+702032 ~ Svetčeva - 702032
+702031 ~ Svetčeva - 702031
+300015 ~ Kolodvor (peron 29A) - 300015
+703062 ~ Preval - 703062
+Smrečje/Vrhnika - Smrečje/Vrhnika
+Žiri - Žiri
+Ganter - Ganter
+Ganter - Ganter
+Noč - Noč
+Noč - Noč
+Anžon - Anžon
+Anžon - Anžon
+Debenc - Debenc
+Debenc - Debenc
+Račeva - Račeva
+Račeva - Račeva
+Nova vas/Žireh - Nova
+Nova vas/Žireh - Nova
+703181~ Večna pot - 703181~
+703121 ~ Živalski vrt - ZOO - 703121
+103052 ~ Tovarna Lek - 103052
+104321 ~ Ježica P+R - 104321
+803062 ~ Ljubljanske brigade - 803062
+Podpeč 1 - Podpeč
+Podpeč 1 - Podpeč
+104362 ~ GD Gameljne - 104362
+104361 ~ GD Gameljne - 104361
+104352 ~ Sp. Gameljne 3 - 104352
+104351 ~ Sp. Gameljne 3 - 104351
+104342 ~ Sp. Gameljne 2 - 104342
+104331 ~ Sp. Gameljne 1 - 104331
+104332 ~ Sp. Gameljne 1 - 104332
+104341 ~ Sp. Gameljne 2 - 104341
+604032 ~ Mestni log - 604032
+704152 ~ Cesta v Gorice - 704152
+704152 ~ Cesta v Gorice - 704152
+704141 ~ Zgornji log - 704141
+704142 ~ Zgornji log - 704142
+103173 ~ Center Stožice - 103173
+815141 ~ Zavrh - 815141
+815142 ~ Zavrh - 815142
+203242 ~ BTC - Merkur - 203242
+203241 ~ BTC - Merkur - 203241
+601042 ~ Šubičeva - 601042
+601041 ~ Šubičeva - 601041
+600021 ~ Ajdovščina - 600021

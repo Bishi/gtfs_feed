@@ -114,3 +114,6 @@ if __name__ == '__main__':
         print("Unexpected error:", sys.exc_info()[0])
         zf.close()
         raise
+
+    for key, value in bus_stations.items():
+        print(key)
