@@ -11,7 +11,7 @@ route_type_dict = {'Tram': 0, 'Subway': 1, 'Rail': 2, 'Bus': 3, 'Ferry': 4,
                    'Cable car': 5, 'Gondola': 6, 'Funicular': 7}
 
 
-def get_coordinates(i, address, city='', station="Transit stop", from_sensor=False):
+def get_coordinates(i, address, city='', station="Transit stop"):
     """
     Get coordinates from address (in our case station name)
     If you call get_coordinates(id, 'address'), it will send a request with 'Transit stop address' as address
@@ -20,7 +20,6 @@ def get_coordinates(i, address, city='', station="Transit stop", from_sensor=Fal
     :param address: used for google API query eg. 'Ljubljana Èrnuèe'
     :param city: add a specific city ot the query
     :param station: add a station type to the query
-    :param from_sensor:
     :return: Station object with id, name, lat, lon
     """
     google_geocode_url = 'https://maps.googleapis.com/maps/api/geocode/json?'
@@ -28,7 +27,7 @@ def get_coordinates(i, address, city='', station="Transit stop", from_sensor=Fal
     query = query.encode('UTF-8')
     params = {
         'address': query,
-        'sensor': "true" if from_sensor else "false",
+        'sensor': "false",
         # use one of the api keys
         'key': 'AIzaSyCyG3oGgSUQkjq5IrgM9SkE_0rqXlS_an0'
         # 'key': 'AIzaSyA6tXxhtw-kSt14NKgyqHtBq1RoVPEiOu4'
@@ -88,7 +87,7 @@ def init_stations(stations, stop_id, route_type):
     :param stations: takes either bus_stations or train_stations as parameters
     :param stop_id: all stations must have a different ID
     :param route_type: either Bus or Rail
-    :return: dict with Station object list
+    :return: dict with Stop object list
     """
     routes = {}
     for r in stations:
@@ -101,7 +100,7 @@ def init_stations(stations, stop_id, route_type):
                     # station_object = get_coordinates(stop_id, address, 'Ljubljana', 'Transit stop', False)
                     station_object = get_coordinates_json(stop_id, address, 'ljubljana.geojson')
                 elif route_type == route_type_dict['Rail']:
-                    station_object = get_coordinates(stop_id, address, '', 'Train stop', False)
+                    station_object = get_coordinates(stop_id, address, '', 'Train stop')
                 stop_id += 1
                 if station_object:
                     route_list.append(station_object)
@@ -159,13 +158,13 @@ def init_trips(routes):
     return trip_list
 
 
-def init_calendar(trips, monday, truestday, wednesday, thursday, friday, saturday, sunday, start_date, end_date):
+def init_calendar(trips, monday, tuesday, wednesday, thursday, friday, saturday, sunday, start_date, end_date):
     """
     :return: list of Calendar objects
     """
     calendar_list = []
     for t in trips:
-        service_object = Calendar(t.trip_id, monday, truestday, wednesday,
+        service_object = Calendar(t.trip_id, monday, tuesday, wednesday,
                                   thursday, friday, saturday, sunday, start_date, end_date)
         calendar_list.append(service_object)
     return calendar_list
