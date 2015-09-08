@@ -72,7 +72,7 @@ def get_coordinates_json(i, name, file):
                 station_number = d['properties']['ref']
             if station_number == name:
                 print("Station num %s name %s" % (station_number, d['properties']['name']))
-                station_name = station_name.replace(',',';')
+                station_name = station_name.replace(',', ';')
                 station_object = Stop(i, station_name,
                                       d['geometry']['coordinates'][1],
                                       d['geometry']['coordinates'][0])

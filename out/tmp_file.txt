@@ -954,7 +954,7 @@
             <select id="line" name="line" onchange="$('#stop').val(0);submit()">
                 <option value="0">-</option>
                                             <option  value="282">1 - MESTNI LOG - VIŽMARJE</option>
-                                                        <option selected='selected' value="283">1B - GAMELJNE - MESTNI LOG</option>
+                                                        <option  value="283">1B - GAMELJNE - MESTNI LOG</option>
                                                         <option  value="281">1D - D. MOST P+R - VIŽMARJE</option>
                                                         <option  value="336">N1 - Bavarski dvor (Kozolec) - BROD</option>
                                                         <option  value="22">2 - NOVE JARŠE - ZELENA JAMA</option>
@@ -975,7 +975,7 @@
                                                         <option  value="339">11B - ŽELEZNA - ZALOG</option>
                                                         <option  value="104">12 - ŽELEZNA - VEVÈE</option>
                                                         <option  value="39">13 - C. STOŽICE P+R - SOSTRO</option>
-                                                        <option  value="105">14 - SAVLJE - VRHOVCI</option>
+                                                        <option selected='selected' value="105">14 - SAVLJE - VRHOVCI</option>
                                                         <option  value="106">14B - SAVLJE - BOKALCE</option>
                                                         <option  value="340">15 - STANEŽIÈE - MEDVODE</option>
                                                         <option  value="212">18 - KOLODVOR - C. STOŽICE P+R</option>
@@ -1004,231 +1004,189 @@
         </div>
     </fieldset>
 </form><div class="container">
-        <h1>Linija: <strong>1B</strong>
+        <h1>Linija: <strong>14</strong>
         <a href="tmp/pdf/navodila.pdf" class="btn pdf btn-success" title="Navodila za branje postajališènih voznih redov">Navodila</a>
     </h1>
-    <div class="lineWrapper active" id="line283">
+    <div class="lineWrapper active" id="line105">
 <div class="col-md-6">    
             <div class="lineFiles dir1">
-            <h3>Linija <b>1B</b>, smer: <b>Mestni log</b></h3>
+            <h3>Linija <b>14</b>, smer: <b>Vrhovci</b></h3>
                     </div>
                     <div class="lineDir">
-                                    <a href="?stop=104221&ref=283" class="stop">
-                        GAMELJNE <em>104221</em>
+                                    <a href="?stop=104011&ref=105" class="stop">
+                        SAVLJE <em>104011</em>
                     </a>
-                                        <a href="?stop=104211&ref=283" class="stop">
-                        Rašica <em>104211</em>
+                                        <a href="?stop=104021&ref=105" class="stop">
+                        Kališnikov trg <em>104021</em>
                     </a>
-                                        <a href="?stop=104201&ref=283" class="stop">
-                        Zg. Gameljne <em>104201</em>
+                                        <a href="?stop=103121&ref=105" class="stop">
+                        Èerinova <em>103121</em>
                     </a>
-                                        <a href="?stop=104191&ref=283" class="stop">
-                        Šmartno <em>104191</em>
+                                        <a href="?stop=103111&ref=105" class="stop">
+                        7. septembra <em>103111</em>
                     </a>
-                                        <a href="?stop=804151&ref=283" class="stop">
-                        Tacen <em>804151</em>
+                                        <a href="?stop=103091&ref=105" class="stop">
+                        Gorjanèeva <em>103091</em>
                     </a>
-                                        <a href="?stop=804141&ref=283" class="stop">
-                        Tacenski most <em>804141</em>
+                                        <a href="?stop=103061&ref=105" class="stop">
+                        Pohorskega bataljona <em>103061</em>
                     </a>
-                                        <a href="?stop=804111&ref=283" class="stop">
-                        Ob daljnovodu <em>804111</em>
+                                        <a href="?stop=103021&ref=105" class="stop">
+                        Brinje <em>103021</em>
                     </a>
-                                        <a href="?stop=804101&ref=283" class="stop">
-                        Tabor <em>804101</em>
+                                        <a href="?stop=102071&ref=105" class="stop">
+                        Vodovodna <em>102071</em>
                     </a>
-                                        <a href="?stop=804091&ref=283" class="stop">
-                        Na klancu <em>804091</em>
+                                        <a href="?stop=102051&ref=105" class="stop">
+                        Podmilšèakova <em>102051</em>
                     </a>
-                                        <a href="?stop=804081&ref=283" class="stop">
-                        Kosmaèeva <em>804081</em>
+                                        <a href="?stop=101061&ref=105" class="stop">
+                        Bratov Židan <em>101061</em>
                     </a>
-                                        <a href="?stop=804051&ref=283" class="stop">
-                        VIŽMARJE <em>804051</em>
+                                        <a href="?stop=101021&ref=105" class="stop">
+                        Parmova <em>101021</em>
                     </a>
-                                        <a href="?stop=804041&ref=283" class="stop">
-                        Šentvid <em>804041</em>
+                                        <a href="?stop=101011&ref=105" class="stop">
+                        Hranilniška <em>101011</em>
                     </a>
-                                        <a href="?stop=804031&ref=283" class="stop">
-                        Podgora <em>804031</em>
+                                        <a href="?stop=100021&ref=105" class="stop">
+                        Razstavišèe <em>100021</em>
                     </a>
-                                        <a href="?stop=804021&ref=283" class="stop">
-                        Prušnikova <em>804021</em>
+                                        <a href="?stop=600012&ref=105" class="stop">
+                        Bavarski dvor (Kozolec) <em>600012</em>
                     </a>
-                                        <a href="?stop=804011&ref=283" class="stop">
-                        Trata <em>804011</em>
-                    </a>
-                                        <a href="?stop=803041&ref=283" class="stop">
-                        Dravlje <em>803041</em>
-                    </a>
-                                        <a href="?stop=803031&ref=283" class="stop">
-                        Kompas <em>803031</em>
-                    </a>
-                                        <a href="?stop=803021&ref=283" class="stop">
-                        Avtomontaža <em>803021</em>
-                    </a>
-                                        <a href="?stop=803011&ref=283" class="stop">
-                        Slovenija avto <em>803011</em>
-                    </a>
-                                        <a href="?stop=802021&ref=283" class="stop">
-                        Kino Šiška <em>802021</em>
-                    </a>
-                                        <a href="?stop=802011&ref=283" class="stop">
-                        Stara cerkev <em>802011</em>
-                    </a>
-                                        <a href="?stop=801011&ref=283" class="stop">
-                        Tivoli <em>801011</em>
-                    </a>
-                                        <a href="?stop=700011&ref=283" class="stop">
-                        Gosposvetska <em>700011</em>
-                    </a>
-                                        <a href="?stop=600022&ref=283" class="stop">
+                                        <a href="?stop=600022&ref=105" class="stop">
                         Ajdovšèina <em>600022</em>
                     </a>
-                                        <a href="?stop=601012&ref=283" class="stop">
+                                        <a href="?stop=601012&ref=105" class="stop">
                         Konzorcij <em>601012</em>
                     </a>
-                                        <a href="?stop=602022&ref=283" class="stop">
-                        Drama <em>602022</em>
+                                        <a href="?stop=601042&ref=105" class="stop">
+                        Šubièeva <em>601042</em>
                     </a>
-                                        <a href="?stop=602052&ref=283" class="stop">
-                        Aškerèeva <em>602052</em>
+                                        <a href="?stop=602012&ref=105" class="stop">
+                        Cankarjev dom <em>602012</em>
                     </a>
-                                        <a href="?stop=602042&ref=283" class="stop">
-                        Tobaèna <em>602042</em>
+                                        <a href="?stop=702012&ref=105" class="stop">
+                        Pod Rožnikom <em>702012</em>
                     </a>
-                                        <a href="?stop=602032&ref=283" class="stop">
-                        Hajdrihova <em>602032</em>
+                                        <a href="?stop=702022&ref=105" class="stop">
+                        Študentsko naselje <em>702022</em>
                     </a>
-                                        <a href="?stop=603012&ref=283" class="stop">
-                        Jadranska <em>603012</em>
+                                        <a href="?stop=703012&ref=105" class="stop">
+                        Rožna dolina <em>703012</em>
                     </a>
-                                        <a href="?stop=603022&ref=283" class="stop">
-                        Gerbièeva <em>603022</em>
+                                        <a href="?stop=703022&ref=105" class="stop">
+                        Cesta XV <em>703022</em>
                     </a>
-                                        <a href="?stop=603032&ref=283" class="stop">
-                        Krimska <em>603032</em>
+                                        <a href="?stop=703032&ref=105" class="stop">
+                        Jamnikarjeva <em>703032</em>
                     </a>
-                                        <a href="?stop=603044&ref=283" class="stop">
-                        Koprska <em>603044</em>
+                                        <a href="?stop=703042&ref=105" class="stop">
+                        Viško polje <em>703042</em>
                     </a>
-                                        <a href="?stop=603142&ref=283" class="stop">
-                        Tbilisijska <em>603142</em>
+                                        <a href="?stop=703052&ref=105" class="stop">
+                        Podmornica <em>703052</em>
                     </a>
-                                        <a href="?stop=604031&ref=283" class="stop">
-                        MESTNI LOG <em>604031</em>
+                                        <a href="?stop=703062&ref=105" class="stop">
+                        Preval <em>703062</em>
+                    </a>
+                                        <a href="?stop=704022&ref=105" class="stop">
+                        Brdo <em>704022</em>
+                    </a>
+                                        <a href="?stop=704031&ref=105" class="stop">
+                        VRHOVCI <em>704031</em>
                     </a>
                                 </div>    
             </div>    
 <div class="col-md-6">    
             <div class="lineFiles dir2">
-            <h3>Linija <b>1B</b>, smer: <b>Gameljne</b></h3>
+            <h3>Linija <b>14</b>, smer: <b>Savlje</b></h3>
                     </div>
                     <div class="lineDir">
-                                    <a href="?stop=604031&ref=283" class="stop">
-                        MESTNI LOG <em>604031</em>
+                                    <a href="?stop=704031&ref=105" class="stop">
+                        VRHOVCI <em>704031</em>
                     </a>
-                                        <a href="?stop=603141&ref=283" class="stop">
-                        Tbilisijska <em>603141</em>
+                                        <a href="?stop=704021&ref=105" class="stop">
+                        Brdo <em>704021</em>
                     </a>
-                                        <a href="?stop=603041&ref=283" class="stop">
-                        Koprska <em>603041</em>
+                                        <a href="?stop=703061&ref=105" class="stop">
+                        Preval <em>703061</em>
                     </a>
-                                        <a href="?stop=603031&ref=283" class="stop">
-                        Krimska <em>603031</em>
+                                        <a href="?stop=703051&ref=105" class="stop">
+                        Podmornica <em>703051</em>
                     </a>
-                                        <a href="?stop=603021&ref=283" class="stop">
-                        Gerbièeva <em>603021</em>
+                                        <a href="?stop=703041&ref=105" class="stop">
+                        Viško polje <em>703041</em>
                     </a>
-                                        <a href="?stop=603011&ref=283" class="stop">
-                        Jadranska <em>603011</em>
+                                        <a href="?stop=703031&ref=105" class="stop">
+                        Jamnikarjeva <em>703031</em>
                     </a>
-                                        <a href="?stop=602031&ref=283" class="stop">
-                        Hajdrihova <em>602031</em>
+                                        <a href="?stop=703021&ref=105" class="stop">
+                        Cesta XV <em>703021</em>
                     </a>
-                                        <a href="?stop=602041&ref=283" class="stop">
-                        Tobaèna <em>602041</em>
+                                        <a href="?stop=703011&ref=105" class="stop">
+                        Rožna dolina <em>703011</em>
                     </a>
-                                        <a href="?stop=602051&ref=283" class="stop">
-                        Aškerèeva <em>602051</em>
+                                        <a href="?stop=702021&ref=105" class="stop">
+                        Študentsko naselje <em>702021</em>
                     </a>
-                                        <a href="?stop=602021&ref=283" class="stop">
-                        Drama <em>602021</em>
+                                        <a href="?stop=702011&ref=105" class="stop">
+                        Pod Rožnikom <em>702011</em>
                     </a>
-                                        <a href="?stop=601011&ref=283" class="stop">
+                                        <a href="?stop=602011&ref=105" class="stop">
+                        Cankarjev dom <em>602011</em>
+                    </a>
+                                        <a href="?stop=601041&ref=105" class="stop">
+                        Šubièeva <em>601041</em>
+                    </a>
+                                        <a href="?stop=601011&ref=105" class="stop">
                         Pošta <em>601011</em>
                     </a>
-                                        <a href="?stop=600021&ref=283" class="stop">
+                                        <a href="?stop=600021&ref=105" class="stop">
                         Ajdovšèina <em>600021</em>
                     </a>
-                                        <a href="?stop=700012&ref=283" class="stop">
-                        Gosposvetska <em>700012</em>
+                                        <a href="?stop=600011&ref=105" class="stop">
+                        Bavarski dvor (Korabar) <em>600011</em>
                     </a>
-                                        <a href="?stop=801012&ref=283" class="stop">
-                        Tivoli <em>801012</em>
+                                        <a href="?stop=100022&ref=105" class="stop">
+                        Razstavišèe <em>100022</em>
                     </a>
-                                        <a href="?stop=802012&ref=283" class="stop">
-                        Stara cerkev <em>802012</em>
+                                        <a href="?stop=101012&ref=105" class="stop">
+                        Hranilniška <em>101012</em>
                     </a>
-                                        <a href="?stop=802022&ref=283" class="stop">
-                        Kino Šiška <em>802022</em>
+                                        <a href="?stop=101022&ref=105" class="stop">
+                        Parmova <em>101022</em>
                     </a>
-                                        <a href="?stop=803014&ref=283" class="stop">
-                        Remiza <em>803014</em>
+                                        <a href="?stop=101062&ref=105" class="stop">
+                        Bratov Židan <em>101062</em>
                     </a>
-                                        <a href="?stop=803022&ref=283" class="stop">
-                        Avtomontaža <em>803022</em>
+                                        <a href="?stop=102052&ref=105" class="stop">
+                        Podmilšèakova <em>102052</em>
                     </a>
-                                        <a href="?stop=803032&ref=283" class="stop">
-                        Kompas <em>803032</em>
+                                        <a href="?stop=102072&ref=105" class="stop">
+                        Vodovodna <em>102072</em>
                     </a>
-                                        <a href="?stop=803042&ref=283" class="stop">
-                        Dravlje <em>803042</em>
+                                        <a href="?stop=103022&ref=105" class="stop">
+                        Brinje <em>103022</em>
                     </a>
-                                        <a href="?stop=804012&ref=283" class="stop">
-                        Trata <em>804012</em>
+                                        <a href="?stop=103062&ref=105" class="stop">
+                        Pohorskega bataljona <em>103062</em>
                     </a>
-                                        <a href="?stop=804022&ref=283" class="stop">
-                        Prušnikova <em>804022</em>
+                                        <a href="?stop=103092&ref=105" class="stop">
+                        Gorjanèeva <em>103092</em>
                     </a>
-                                        <a href="?stop=804032&ref=283" class="stop">
-                        Podgora <em>804032</em>
+                                        <a href="?stop=103112&ref=105" class="stop">
+                        7. septembra <em>103112</em>
                     </a>
-                                        <a href="?stop=804042&ref=283" class="stop">
-                        Šentvid <em>804042</em>
+                                        <a href="?stop=103122&ref=105" class="stop">
+                        Èerinova <em>103122</em>
                     </a>
-                                        <a href="?stop=804051&ref=283" class="stop">
-                        VIŽMARJE <em>804051</em>
+                                        <a href="?stop=104022&ref=105" class="stop">
+                        Kališnikov trg <em>104022</em>
                     </a>
-                                        <a href="?stop=804082&ref=283" class="stop">
-                        Kosmaèeva <em>804082</em>
-                    </a>
-                                        <a href="?stop=804092&ref=283" class="stop">
-                        Na klancu <em>804092</em>
-                    </a>
-                                        <a href="?stop=804102&ref=283" class="stop">
-                        Tabor <em>804102</em>
-                    </a>
-                                        <a href="?stop=804112&ref=283" class="stop">
-                        Ob daljnovodu <em>804112</em>
-                    </a>
-                                        <a href="?stop=804142&ref=283" class="stop">
-                        Tacenski most <em>804142</em>
-                    </a>
-                                        <a href="?stop=804152&ref=283" class="stop">
-                        Tacen <em>804152</em>
-                    </a>
-                                        <a href="?stop=104192&ref=283" class="stop">
-                        Šmartno <em>104192</em>
-                    </a>
-                                        <a href="?stop=104202&ref=283" class="stop">
-                        Zg. Gameljne <em>104202</em>
-                    </a>
-                                        <a href="?stop=104212&ref=283" class="stop">
-                        Rašica <em>104212</em>
-                    </a>
-                                        <a href="?stop=104221&ref=283" class="stop">
-                        GAMELJNE <em>104221</em>
+                                        <a href="?stop=104011&ref=105" class="stop">
+                        SAVLJE <em>104011</em>
                     </a>
                                 </div>    
             </div>

@@ -3,7 +3,6 @@
 
 from init_objects import clean_stations
 from init_objects import read_data
-from parse_routes import create_bus_routes
 
 train_stations = {
     'Ljubljana - Grosuplje': ['Ljubljana', 'Ljubljana - Vodmat', 'Ljubljana - Rakovnik', '©kofljica', '©marje-Sap',
@@ -34,7 +33,6 @@ train_stations = {
 #                        '603094', '603152', '503052', '504042', '504122', '504052'],
 # }
 
-# bus_stations = create_bus_routes()
 bus_stations = read_data('out/routes.json')
 bus_stations = clean_stations(bus_stations)
 train_stations = clean_stations(train_stations)
